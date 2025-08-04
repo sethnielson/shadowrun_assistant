@@ -1,1 +1,35 @@
-<html>...lobby page...</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lobby</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}</h1>
+
+    <h2>Announcements</h2>
+    <ul>
+        {% for msg in announcements %}
+            <li>{{ msg }}</li>
+        {% empty %}
+            <li>No announcements at this time.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Activity Feed</h2>
+    <ul>
+        {% for item in feed %}
+            <li>{{ item }}</li>
+        {% empty %}
+            <li>No recent activity.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Apps</h2>
+    <ul>
+        <li><a href="{% url 'change_password' %}">Account Settings</a></li>
+        <li><a href="{% url 'character_list' %}">Character Generator</a></li>
+    </ul>
+
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+</body>
+</html>
