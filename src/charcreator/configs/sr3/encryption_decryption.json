@@ -1,0 +1,71 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".data_encryption", "name":"Data Encryption","list": [
+  {
+    "key": ".rating_1_3",
+    "name": "Rating 1–3",
+    "cost": "Rating x Rating x 50¥",
+    "legal": "8P-V",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_4_6",
+    "name": "Rating 4–6",
+    "cost": "Rating x Rating x 100¥",
+    "legal": "8P-V",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_7_9",
+    "name": "Rating 7–9",
+    "cost": "Rating x Rating x 250¥",
+    "legal": "8P-V",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_10_plus",
+    "name": "Rating 10+",
+    "cost": "Rating x Rating x 500¥",
+    "legal": "8P-V",
+    "source": ["sr3base","p. 293"]
+  }
+			]},
+			{"key": ".data_decryption", "name":"Data Decryption", "list": [
+  {
+    "key": ".rating_1_3",
+    "name": "Rating 1–3",
+    "cost": "Rating x Rating x 100¥",
+    "legal": "8P-W",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_4_6",
+    "name": "Rating 4–6",
+    "cost": "Rating x Rating x 200¥",
+    "legal": "8P-W",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_7_9",
+    "name": "Rating 7–9",
+    "cost": "Rating x Rating x 500¥",
+    "legal": "8P-W",
+    "source": ["sr3base","p. 293"]
+  },
+  {
+    "key": ".rating_10_plus",
+    "name": "Rating 10+",
+    "cost": "Rating x Rating x 1000¥",
+    "legal": "8P-W",
+    "source": ["sr3base","p. 293"]
+  }
+			]}
+		]
+	}
+}

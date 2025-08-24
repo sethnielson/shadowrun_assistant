@@ -1,0 +1,175 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".magical_equipment", "name":"Magical Equipment", "list": [
+				{"key": ".foci", "name":"Foci", "list": [
+				  {
+					"key": ".expendable_spell_focus",
+					"name": "Expendable Spell Focus",
+					"avail": "3/26 hrs",
+					"cost": "Force x 1,500¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".specific_spell_focus",
+					"name": "Specific Spell Focus",
+					"avail": "4/48 hrs",
+					"cost": "Force x 45,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".spell_category_focus",
+					"name": "Spell Category Focus",
+					"avail": "5/48 hrs",
+					"cost": "Force x 75,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".spirit_focus",
+					"name": "Spirit Focus",
+					"avail": "4/48 hrs",
+					"cost": "Force x 60,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".power_focus",
+					"name": "Power Focus",
+					"avail": "6/72 hrs",
+					"cost": "Force x 105,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".sustaining_focus",
+					"name": "Sustaining Focus",
+					"avail": "2/48 hrs",
+					"cost": "Force x 15,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".weapon_foci",
+					"name": "Weapon Foci",
+					"avail": "8/72 hrs",
+					"cost": "[(Reach + 1) x 100,000¥] + Force x 90,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  }
+				]},
+				{"key":".magical_supplies", "name":"Magical Supplies", "list": [
+				  {
+					"key": ".elemental_conjuring_materials",
+					"name": "Elemental Conjuring Materials",
+					"avail": "Force/24 hrs",
+					"cost": "Force x 1,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".shamanic_lodge_materials",
+					"name": "Shamanic Lodge Materials",
+					"avail": "Force/24 hrs",
+					"cost": "Rating x 500¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".hermetic_library_per_skill",
+					"name": "Hermetic Library (per skill)",
+					"avail": "Rating/7 days",
+					"cost": "(Rating x Rating) x 1,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  }
+				]},
+				{"key":".fetishes", "name":"Fetishes", "list": [
+
+				  {
+					"key": ".combat_fetish",
+					"name": "Combat Fetish",
+					"avail": "3/24 hrs",
+					"cost": "200¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".detection_fetish",
+					"name": "Detection Fetish",
+					"avail": "3/24 hrs",
+					"cost": "50¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".healing_fetish",
+					"name": "Healing Fetish",
+					"avail": "3/24 hrs",
+					"cost": "500¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".illusion_fetish",
+					"name": "Illusion Fetish",
+					"avail": "3/24 hrs",
+					"cost": "100¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".manipulation_fetish",
+					"name": "Manipulation Fetish",
+					"avail": "3/24 hrs",
+					"cost": "300¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 305"]
+				  }
+				]},
+				{"key":".spell_formulas", "name":"Spell Formulas", "list": [
+
+				  {
+					"key": ".l_drain_formula",
+					"name": "L Drain Formula",
+					"avail": "Force/24 hrs",
+					"cost": "Force x 50¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".m_drain_formula",
+					"name": "M Drain Formula",
+					"avail": "Force/48 hrs",
+					"cost": "Force x 100¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".s_drain_formula",
+					"name": "S Drain Formula",
+					"avail": "Force/72 hrs",
+					"cost": "Force x 500¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  },
+				  {
+					"key": ".d_drain_formula",
+					"name": "D Drain Formula",
+					"avail": "Force/7 days",
+					"cost": "Force x 1,000¥",
+					"st_index": "2",
+					"source": ["sr3base","p. 305"]
+				  }
+				]}
+			]}
+		]
+	}
+}

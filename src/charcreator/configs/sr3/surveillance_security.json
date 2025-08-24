@@ -1,0 +1,285 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".surveillance_securty", "name":"Surveillance and Security","list": [
+				{"key": ".vision_enhancers", "name": "Vision Enhancers", "list": [
+					{"key": ".binoculars", "name": "Binoculars", "list": [
+					  {
+						"key": ".std_binoculars",
+						"name": "Standard Binoculars",
+						"conceal": "5",
+						"magnification": "50x",
+						"weight": "1",
+						"avail": "Always",
+						"cost": "100¥",
+						"st_index": ".8",
+						"source": ["sr3base","p. 290"],
+						"notes": "In the SR3 rulebook, this is just called 'Binoculars'. Named changed to differentiate category"
+					  },
+					  {
+						"key": ".binoculars_low_light",
+						"name": "Binoculars (Low-Light)",
+						"conceal": "—",
+						"magnification": "—",
+						"weight": "—",
+						"avail": "4/48 hrs",
+						"cost": "+200¥",
+						"st_index": "1.25",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".binoculars_thermographic",
+						"name": "Binoculars (Thermographic)",
+						"conceal": "—",
+						"magnification": "—",
+						"weight": "—",
+						"avail": "4/48 hrs",
+						"cost": "+250¥",
+						"st_index": "1.25",
+						"source": ["sr3base","p. 290"]
+					  }
+					]},
+					{"key": ".flashlight", "name": "Flashlight", "list": [
+					  {
+						"key": ".flashlight_pocket",
+						"name": "Flashlight (Pocket)",
+						"conceal": "12",
+						"magnification": "—",
+						"weight": "—",
+						"avail": "Always",
+						"cost": "10¥",
+						"st_index": "1",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".flashlight_large",
+						"name": "Flashlight (Large)",
+						"conceal": "7",
+						"magnification": "—",
+						"weight": "2",
+						"avail": "Always",
+						"cost": "25¥",
+						"st_index": "1",
+						"source": ["sr3base","p. 290"]
+					  }
+					]},
+					{"key": ".goggles", "name": "Goggles", "list": [
+					  {
+						"key": ".std_goggles",
+						"name": "Standard Goggles",
+						"conceal": "6",
+						"magnification": "20x",
+						"weight": "—",
+						"avail": "4/48 hrs",
+						"cost": "1,500¥",
+						"st_index": "1.5",
+						"source": ["sr3base","p. 290"],
+						"notes": "In the SR3 rulebook, this is just called 'Goggles'. Named changed to differentiate category."
+					  },
+					  {
+						"key": ".goggles_low_light",
+						"name": "Goggles (Low-Light)",
+						"conceal": "—",
+						"magnification": "—",
+						"weight": "—",
+						"avail": "6/48 hrs",
+						"cost": "+500¥",
+						"st_index": "2",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".goggles_thermographic",
+						"name": "Goggles (Thermographic)",
+						"conceal": "—",
+						"magnification": "—",
+						"weight": "—",
+						"avail": "6/48 hrs",
+						"cost": "+700¥",
+						"st_index": "2",
+						"source": ["sr3base","p. 290"]
+					  }
+					]}
+				]},
+				{"key": ".communications", "name": "Communications", "list": [
+				  {
+					"key": ".micro_transceiver",
+					"name": "Micro-Transceiver",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "Rating/48 hrs",
+					"cost": "Rating x 1,000¥",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".subvocal_mic",
+					"name": "Subvocal Mic",
+					"conceal": "12",
+					"weight": "—",
+					"avail": "3/48 hrs",
+					"cost": "500¥",
+					"st_index": "1.25",
+					"legal": "9P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".transceiver",
+					"name": "Transceiver",
+					"conceal": "8",
+					"weight": "1",
+					"avail": "Rating/48 hrs",
+					"cost": "Rating x 500¥",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".signal_amplifier",
+					"name": "Signal Amplifier",
+					"conceal": "3",
+					"weight": "Rating",
+					"avail": "Rating/(Rating x 12) hrs",
+					"cost": "Rating x 250¥",
+					"st_index": "1.5",
+					"legal": "10P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".signal_repeater",
+					"name": "Signal Repeater",
+					"conceal": "—",
+					"weight": "Rating x 2",
+					"avail": "Rating x 2/48 hrs",
+					"cost": "Rating x 1000¥",
+					"st_index": "3",
+					"legal": "6P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".simrig",
+					"name": "Simrig",
+					"conceal": "10",
+					"weight": ".5",
+					"avail": "8/2 weeks",
+					"cost": "50,000¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".simlink",
+					"name": "Simlink",
+					"conceal": "8",
+					"weight": ".5",
+					"avail": "8/2 weeks",
+					"cost": "25,000¥ + (5,000 x Rating)",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".vidlink_transmitter",
+					"name": "Vidlink Transmitter",
+					"conceal": "9",
+					"weight": ".5",
+					"avail": "4/1 week",
+					"cost": "2,000¥ x Rating",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".scanner",
+					"name": "Scanner",
+					"conceal": "8",
+					"weight": "1",
+					"avail": "Rating/24 hrs",
+					"cost": "Rating x 100¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 290"]
+				  },
+				  {
+					"key": ".eccm",
+					"name": "ECCM",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "+1 per",
+					"cost": "1,000¥ per",
+					"st_index": "+0.5 per",
+					"legal": "Legal",
+					"source": ["sr3base","p. 290"]
+				  }
+				]},
+				{"key": ".broadcast_encryption_decryption", "name": "Broadcast Encryption Decryption", "list": [
+					{"key": ".encryption", "name": "Encryption", "list": [
+					  {
+						"key": ".rating_1_4",
+						"name": "Rating 1–4",
+						"cost": "Rating x 1,000¥",
+						"st_index": "1",
+						"legal": "8P-V",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".rating_5_7",
+						"name": "Rating 5–7",
+						"cost": "Rating x 2,000¥",
+						"st_index": "1",
+						"legal": "8P-V",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".rating_8_9",
+						"name": "Rating 8–9",
+						"cost": "Rating x 4,000¥",
+						"st_index": "1",
+						"legal": "8P-W",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".rating_10",
+						"name": "Rating 10",
+						"cost": "Rating x 5,000¥",
+						"st_index": "1",
+						"legal": "8P-W",
+						"source": ["sr3base","p. 290"]
+					  }
+					]},
+					{"key": "decryption", "name": "Decryption", "list": [
+					  {
+						"key": ".rating_1_4",
+						"name": "Rating 1–4",
+						"cost": "Rating x 2,000¥",
+						"st_index": "1",
+						"legal": "8P-V",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".rating_5_7",
+						"name": "Rating 5–7",
+						"cost": "Rating x 4,000¥",
+						"st_index": "1",
+						"legal": "8P-W",
+						"source": ["sr3base","p. 290"]
+					  },
+					  {
+						"key": ".rating_8",
+						"name": "Rating 8",
+						"cost": "40,000¥",
+						"st_index": "1",
+						"legal": "8P-W",
+						"source": ["sr3base","p. 290"]
+					  }
+					]}
+				]}
+			]}
+		]
+	}
+}

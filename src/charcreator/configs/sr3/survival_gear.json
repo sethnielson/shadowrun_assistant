@@ -1,0 +1,193 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".survival_gear", "name":"Survival Gear","list": [
+			  {
+				"key": ".chemsuit",
+				"name": "Chemsuit",
+				"conceal": "—",
+				"weight": "1",
+				"avail": "(Rating)/(Rating) days",
+				"cost": "200¥ x Rating",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {"key": ".climbing_gear", "name": "Climbing Gear", "list": [
+				  {
+					"key": ".ascent_descent_harness",
+					"name": "Ascent/Descent Harness",
+					"conceal": "3",
+					"weight": ".25",
+					"avail": "Always",
+					"cost": "75¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".ascent_descent_kit",
+					"name": "Ascent/Descent Kit",
+					"conceal": "3",
+					"weight": "2",
+					"avail": "Always",
+					"cost": "250¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".rappelling_gloves",
+					"name": "Rappelling Gloves",
+					"conceal": "9",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "20¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".rope_50m",
+					"name": "Rope (50m)",
+					"conceal": "3",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "125¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  }
+			  ]},
+			  {"key": ".grapple_gun_equipment", "name": "Grapple Gun Equipment", "list": [
+				  {
+					"key": ".grapple_gun",
+					"name": "Grapple Gun",
+					"conceal": "7",
+					"weight": "2.25",
+					"avail": "4/36 hrs",
+					"cost": "450¥",
+					"st_index": "2",
+					"legal": "4P-U",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".grapple_line",
+					"name": "Grapple Line",
+					"conceal": "—",
+					"weight": "2 per 100m",
+					"avail": "4/36 hrs",
+					"cost": "50¥ per 100m",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".stealth_grapple_line",
+					"name": "Stealth Grapple Line",
+					"conceal": "3",
+					"weight": "3 per 100m",
+					"avail": "6/72 hrs",
+					"cost": "85¥ per 100m",
+					"st_index": "3",
+					"legal": "6P-V",
+					"source": ["sr3base","p. 295"]
+				  },
+				  {
+					"key": ".catalyst_stick",
+					"name": "Catalyst Stick",
+					"conceal": "9",
+					"weight": "—",
+					"avail": "6/72 hrs",
+					"cost": "120¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 295"]
+				  }
+				]},
+			  {
+				"key": ".micro_flare_launcher",
+				"name": "Micro Flare Launcher",
+				"conceal": "—",
+				"weight": "2",
+				"avail": "Always",
+				"cost": "50¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".micro_flares",
+				"name": "Micro Flares",
+				"conceal": "10",
+				"weight": "—",
+				"avail": "Always",
+				"cost": "75¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".nav_dat_gps",
+				"name": "Nav-Dat GPS",
+				"conceal": "8",
+				"weight": ".5",
+				"avail": "6/48 hrs",
+				"cost": "700¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".ration_bars_10_days",
+				"name": "Ration Bars (10 Days)",
+				"conceal": "—",
+				"weight": "1",
+				"avail": "2/48 hrs",
+				"cost": "30¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".respirator",
+				"name": "Respirator",
+				"conceal": "1",
+				"weight": "—",
+				"avail": "2/48 hrs",
+				"cost": "500¥",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".respirator_pressure_regulator",
+				"name": "Respirator Pressure Regulator",
+				"conceal": "—",
+				"weight": ".5",
+				"avail": "2/48 hrs",
+				"cost": "250¥",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  },
+			  {
+				"key": ".survival_kit",
+				"name": "Survival Kit",
+				"conceal": "—",
+				"weight": "2",
+				"avail": "2/48 hrs",
+				"cost": "100¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 295"]
+			  }
+			]}
+		]
+	}
+}

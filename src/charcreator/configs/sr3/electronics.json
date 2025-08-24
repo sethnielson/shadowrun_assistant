@@ -1,0 +1,226 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".electronics", "name":"Electronics","list": [
+				{
+					"key": ".telecom",
+					"name": "Telecom",
+					"conceal": "—",
+					"weight": "15",
+					"avail": "Always",
+					"cost": "Memory Cost x 1.5",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				{"key": ".communications", "name": "Communications", "list": [
+					{
+					"key": ".wrist_model_cellphone",
+					"name": "Wrist-Model Cellphone",
+					"conceal": "4",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "100¥",
+					"st_index": ".75",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".wrist_model_cellphone_flip_up_screen",
+					"name": "Wrist-Model Cellphone (Flip-Up Screen)",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "150¥",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".handset_unit_cellphone",
+					"name": "Handset Unit Cellphone",
+					"conceal": "3",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "50¥",
+					"st_index": ".75",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".earplug_unit_cellphone",
+					"name": "Earplug Unit Cellphone",
+					"conceal": "8",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "100¥",
+					"st_index": "1.5",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".pager",
+					"name": "Pager",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "10¥",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".pocket_secretary",
+					"name": "Pocket Secretary",
+					"conceal": "3",
+					"weight": "0.5",
+					"avail": "Always",
+					"cost": "2,000¥",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  }
+				]},
+				{"key": ".personal_computers", "name": "Personal Computers", "list": [
+					{
+						"key": ".table_top_pc",
+						"name": "Table Top",
+						"conceal": "—",
+						"weight": "10",
+						"avail": "Always",
+						"cost": "Memory Cost",
+						"st_index": ".75",
+						"source": ["sr3base", "p. 287"]
+					  },
+					  {
+						"key": ".pocket_pc",
+						"name": "Pocket",
+						"conceal": "3",
+						"weight": "1",
+						"avail": "Always",
+						"cost": "Memory Cost x 5",
+						"st_index": "1",
+						"source": ["sr3base", "p. 287"]
+					  },
+					  {
+						"key": ".wrist_pc",
+						"name": "Wrist",
+						"conceal": "4",
+						"weight": "—",
+						"avail": "Always",
+						"cost": "Memory Cost x 20",
+						"st_index": "1.5",
+						"source": ["sr3base", "p. 287"]
+					  },
+					  {
+						"key": ".printer",
+						"name": "Printer",
+						"conceal": "NA",
+						"weight": "10",
+						"avail": "Always",
+						"cost": "100¥",
+						"st_index": "1",
+						"source": ["sr3base", "p. 287"]
+					  },
+					  {
+						"key": ".computer_memory_non_cyber",
+						"name": "Computer Memory (Non-Cyber)",
+						"conceal": "NA",
+						"weight": "—",
+						"avail": "Always",
+						"cost": "20¥ x Mp",
+						"st_index": ".75",
+						"source": ["sr3base", "p. 287"]
+					  }
+				]},
+				{"key": ".data_display_systems", "name": "Data Display Systems (w/max memory capacity)", "list": [
+					{
+					"key": ".data_unit_1000_mp",
+					"name": "Data Unit (1,000 Mp)",
+					"conceal": "3",
+					"weight": "2",
+					"avail": "Always",
+					"cost": "Memory Cost",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".headset_500_mp",
+					"name": "Headset (500 Mp)",
+					"conceal": "4",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "Memory Cost x 2",
+					"st_index": "1.5",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".heads_up_display_200_mp",
+					"name": "Heads-Up Display (200 Mp)",
+					"conceal": "NA",
+					"weight": "1",
+					"avail": "6/7 days",
+					"cost": "Memory Cost x 10",
+					"st_index": "3",
+					"source": ["sr3base", "p. 287"]
+				  }
+				]},
+				{"key": ".credstick_verification_readers", "name": "Credstick Verification Readers", "list": [
+					{
+					"key": ".credstick_reader_rating_1",
+					"name": "Credstick Verification Reader (Rating 1)",
+					"rating": "1",
+					"transaction_limit": "5,000¥",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "12,000¥",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".credstick_reader_rating_2_3",
+					"name": "Credstick Verification Reader (Rating 2–3)",
+					"rating": "2–3",
+					"transaction_limit": "20,000¥",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "45,000¥ (60,000¥ portable)",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".credstick_reader_rating_4_5",
+					"name": "Credstick Verification Reader (Rating 4–5)",
+					"rating": "4–5",
+					"transaction_limit": "200,000¥",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "100,000¥",
+					"st_index": "1",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".credstick_reader_rating_6_7",
+					"name": "Credstick Verification Reader (Rating 6–7)",
+					"rating": "6–7",
+					"transaction_limit": "500,000¥",
+					"weight": "1",
+					"avail": "Restricted",
+					"cost": "Restricted",
+					"st_index": "NA",
+					"source": ["sr3base", "p. 287"]
+				  },
+				  {
+					"key": ".credstick_reader_rating_8_9",
+					"name": "Credstick Verification Reader (Rating 8–9)",
+					"rating": "8–9",
+					"transaction_limit": "1,000,000¥",
+					"weight": "1",
+					"avail": "Restricted",
+					"cost": "Restricted",
+					"st_index": "NA",
+					"source": ["sr3base", "p. 287"]
+				  }
+				]}
+			]}
+		]
+	}
+}

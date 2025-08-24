@@ -1,0 +1,95 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+	"data": {
+		"static": [
+		{ "key": ".bows", "name":"Bows","list": [
+	  {
+		"key": ".standard_bow",
+		"name": "Standard Bow",
+		"conceal": "2",
+		"str_min": "1+",
+		"damage": "(STR Min+2)M",
+		"weight": "1",
+		"avail": "3/36 hrs",
+		"cost": "100¥ x STR Min",
+		"st_index": "1",
+		"legal": "5-D",
+		"source": ["sr3base","p. 276"]
+	  }
+		]},
+		{ "key": ".crossbows", "name":"Crossbows","list": [
+	  {
+		"key": ".light_crossbow",
+		"name": "Crossbow (Light)",
+		"conceal": "2",
+		"str_min": "3",
+		"damage": "6L",
+		"weight": "2",
+		"avail": "4/36 hrs",
+		"cost": "300¥",
+		"st_index": "1",
+		"legal": "6-D",
+		"source": ["sr3base","p. 276"]
+	  },
+	  {
+		"key": ".medium_crossbow",
+		"name": "Crossbow (Medium)",
+		"conceal": "2",
+		"str_min": "4",
+		"damage": "6M",
+		"weight": "3",
+		"avail": "5/36 hrs",
+		"cost": "500¥",
+		"st_index": "1",
+		"legal": "6-D",
+		"source": ["sr3base","p. 276"]
+	  },
+	  {
+		"key": ".heavy_crossbow",
+		"name": "Crossbow (Heavy)",
+		"conceal": "NA",
+		"str_min": "5",
+		"damage": "6S",
+		"weight": "4",
+		"avail": "6/36 hrs",
+		"cost": "750¥",
+		"st_index": "1",
+		"legal": "6-D",
+		"source": ["sr3base","p. 276"]
+	  }
+		]},
+	  { "key": ".throwing_weapons", "name":"Throwing Weapons","list": [
+	  {
+		"key": ".throwing_knife",
+		"name": "Throwing Knife",
+		"conceal": "9",
+		"str_min": "NA",
+		"damage": "(STR)L",
+		"weight": "0.25",
+		"avail": "2/24 hrs",
+		"cost": "20¥",
+		"st_index": "1",
+		"legal": "8-D",
+		"source": ["sr3base","p. 276"]
+	  },
+	  {
+		"key": ".shuriken",
+		"name": "Shuriken",
+		"conceal": "8",
+		"str_min": "NA",
+		"damage": "(STR)L",
+		"weight": "0.25",
+		"avail": "2/24 hrs",
+		"cost": "30¥",
+		"st_index": "2",
+		"legal": "6-D",
+		"source": ["sr3base","p. 276"]
+	  }
+	  ]}
+
+	  ]
+	}
+}

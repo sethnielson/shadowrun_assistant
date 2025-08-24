@@ -1,0 +1,96 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".cyberware", "name":"Cyberware", "list": [
+				{"key": ".bodywear", "name":"Bodywear", "list": [
+					{"keY": ".limbs", "name": "Limbs", "list": [
+						  {
+							"key": ".obvious_cyberarm_leg",
+							"name": "Obvious Cyberarm/Leg",
+							"conceal": "—",
+							"essence": "1",
+							"cost": "75,000¥",
+							"avail": "4/4 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 303"]
+						  },
+						  {
+							"key": ".synthetic_cyberarm_leg",
+							"name": "Synthetic Cyberarm/Leg",
+							"conceal": "8",
+							"essence": "1",
+							"cost": "100,000¥",
+							"avail": "4/4 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 303"]
+						  },
+						  {
+							"key": ".built_in_device",
+							"name": "Built-In Device",
+							"conceal": "—variable",
+							"essence": "—",
+							"cost": "4 × Normal Cost",
+							"avail": "Varies",
+							"st_index": "Varies",
+							"legal": "Varies",
+							"source": ["sr3base","p. 303"]
+						  },
+						  {
+							"key": ".built_in_smartgun_link",
+							"name": "Built-In Smartgun Link",
+							"conceal": "—",
+							"essence": "0.25",
+							"cost": "2,500¥",
+							"avail": "6/4 days",
+							"st_index": "1.5",
+							"legal": "5P-N",
+							"source": ["sr3base","p. 303"]
+						  },
+						  {
+							"key": ".direct_neural_interface",
+							"name": "Direct Neural Interface",
+							"conceal": "—",
+							"essence": "0.1",
+							"cost": "4,500¥",
+							"avail": "4/6 days",
+							"st_index": "1",
+							"legal": "5P-Q",
+							"source": ["sr3base","p. 303"]
+						  },
+						  {"key":".strength_enhancement", "name":"Strength Enhancement", "list": [
+							  {
+								"key": ".1_3_points_per_limb",
+								"name": "1–3 points per limb",
+								"conceal": "-1 per",
+								"essence": "—",
+								"cost": "50,000¥/point",
+								"avail": "6/4 days",
+								"st_index": "1.5",
+								"legal": "6P-Q",
+								"source": ["sr3base","p. 303"]
+							  },
+							  {
+								"key": ".4_plus_points_per_limb",
+								"name": "4+ points per limb",
+								"conceal": "-2 per",
+								"essence": "0.4/point",
+								"cost": "75,000¥/point",
+								"avail": "6/4 days",
+								"st_index": "1.5",
+								"legal": "6P-R",
+								"source": ["sr3base","p. 303"]
+							  }
+						  ]}
+					]}
+				]}
+			]}
+		]
+	}
+}

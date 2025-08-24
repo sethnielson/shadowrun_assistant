@@ -1,0 +1,171 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".cyberware", "name":"Cyberware","list": [
+				{"key": ".headgear", "name": "Headwear", "list": [
+				  {
+					"key": ".chipjack",
+					"name": "Chipjack",
+					"essence": "0.2",
+					"cost": "1,000¥",
+					"avail": "3/72 hrs",
+					"st_index": "0.9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 298"]
+				  },
+				  {"key": ".cranial_bombs", "name": "Cranial Bombs", "list": [
+					  {
+						"key": ".kink_bomb",
+						"name": "Kink Bomb",
+						"essence": "—",
+						"cost": "28,000¥",
+						"avail": "12/14 days",
+						"st_index": "1.5",
+						"legal": "2-R",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".microbomb",
+						"name": "Microbomb",
+						"essence": "—",
+						"cost": "65,500¥",
+						"avail": "18/48 hrs",
+						"st_index": "1.25",
+						"legal": "2-R",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".area_bomb",
+						"name": "Area Bomb",
+						"essence": "—",
+						"cost": "500,000¥",
+						"avail": "20/14 days",
+						"st_index": "1",
+						"legal": "2-R",
+						"source": ["sr3base","p. 298"]
+					  }
+				  ]},
+				  {
+					"key": ".datajack",
+					"name": "Datajack",
+					"essence": "0.2",
+					"cost": "1,000¥",
+					"avail": "Always",
+					"st_index": "0.9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 298"]
+				  },
+				  {
+					"key": ".data_lock",
+					"name": "Data Lock",
+					"essence": "0.2",
+					"cost": "1,000¥ + Encryption Cost",
+					"avail": "6/36 hrs",
+					"st_index": "1.5",
+					"legal": "As Encryption",
+					"source": ["sr3base","p. 298"]
+				  },
+				  {
+					"key": ".knowsoft_link",
+					"name": "Knowsoft Link",
+					"essence": "0.1",
+					"cost": "1,000¥",
+					"avail": "3/24 hrs",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 298"]
+				  },
+				  {
+					"key": ".memory",
+					"name": "Memory",
+					"essence": "Mp = 300",
+					"cost": "Mp x 150¥",
+					"avail": "3/24 hrs",
+					"st_index": "0.8",
+					"legal": "Legal",
+					"source": ["sr3base","p. 298"]
+				  },
+				  {"key": ".tooth_compartment", "name": "Tooth Compartment", "list": [
+					  {
+						"key": ".tooth_compartment_breakable",
+						"name": "Breakable",
+						"essence": "—",
+						"cost": "700¥",
+						"avail": "3/48 hrs",
+						"st_index": "1.5",
+						"legal": "10P-Q",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".tooth_compartment_storage",
+						"name": "Storage",
+						"essence": "—",
+						"cost": "1,500¥",
+						"avail": "2/48 hrs",
+						"st_index": "1.25",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  }
+				  ]},
+				  {"key": ".communications", "name": "Communications", "list": [
+					  {
+						"key": ".commlink",
+						"name": "Commlink",
+						"essence": "0.3",
+						"cost": "Rating x 5,000¥",
+						"avail": "3/48 hrs",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".radio",
+						"name": "Radio",
+						"essence": "0.75",
+						"cost": "Rating x 2,000¥",
+						"avail": "2/24 hrs",
+						"st_index": "0.8",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".radio_receiver",
+						"name": "Radio Receiver",
+						"essence": "0.4",
+						"cost": "Rating x 1,000¥",
+						"avail": "2/24 hrs",
+						"st_index": "0.8",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".subvocal_microphones",
+						"name": "Subvocal Microphones",
+						"essence": "0.1",
+						"cost": "850¥",
+						"avail": "4/72 hrs",
+						"st_index": "2",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  },
+					  {
+						"key": ".telephone",
+						"name": "Telephone",
+						"essence": "0.5",
+						"cost": "3,700¥",
+						"avail": "3/24 hrs",
+						"st_index": "0.9",
+						"legal": "Legal",
+						"source": ["sr3base","p. 298"]
+					  }
+				  ]}
+				]}
+			]}
+		]
+	}
+}

@@ -1,0 +1,427 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".cyberware", "name":"Cyberware", "list": [
+				{"key": ".bodywear", "name":"Bodywear", "list": [
+					{"keY": ".bone_lacing", "name": "Bone Lacing", "list": [
+					  {
+						"key": ".plastic",
+						"name": "Plastic",
+						"essence": "0.5",
+						"cost": "7,500¥",
+						"avail": "5/14 days",
+						"st_index": "1.5",
+						"legal": "6P-N",
+						"source": ["sr3base","p. 302"]
+					  },
+					  {
+						"key": ".aluminum",
+						"name": "Aluminum",
+						"essence": "1.15",
+						"cost": "25,000¥",
+						"avail": "5/14 days",
+						"st_index": "1.5",
+						"legal": "6P-Q",
+						"source": ["sr3base","p. 302"]
+					  },
+					  {
+						"key": ".titanium",
+						"name": "Titanium",
+						"essence": "2.25",
+						"cost": "75,000¥",
+						"avail": "5/14 days",
+						"st_index": "1.5",
+						"legal": "6P-R",
+						"source": ["sr3base","p. 302"]
+					  }
+					]},
+					{
+					"key": ".fingertip_compartment",
+					"name": "Fingertip Compartment",
+					"essence": "0.1",
+					"cost": "3,000¥",
+					"avail": "3/24 hrs",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 302"]
+					},
+					{
+					"key": ".hand_blade",
+					"name": "Hand Blade",
+					"essence": "0.25",
+					"cost": "7,000¥",
+					"avail": "3/24 hrs",
+					"st_index": "1",
+					"legal": "4P-R",
+					"source": ["sr3base","p. 302"]
+					},
+					{
+					"key": ".hand_blade_retractable",
+					"name": "Hand Blade (Retractable",
+					"essence": "0.25",
+					"cost": "10,000¥",
+					"avail": "6/5 days",
+					"st_index": "1.5",
+					"legal": "3P-R",
+					"source": ["sr3base","p. 302"]
+					},
+					{"key": ".hand_razors", "name": "Hand Razors", "list":[
+						  {
+							"key": ".std_hand_razors",
+							"name": "Hand Razors (Standard",
+							"essence": "0.2",
+							"cost": "3,500¥",
+							"avail": "3/72 hrs",
+							"st_index": "1",
+							"legal": "3-N",
+							"source": ["sr3base","p. 302"],
+							"notes": "In the SR3 source book, this is just called 'Hand Razors'. Name adjusted to differentiate category."
+						  },
+						  {
+							"key": ".hand_razors_improved",
+							"name": "Hand Razors (Improved",
+							"essence": "NA",
+							"cost": "+8,500¥",
+							"avail": "6/72 hrs",
+							"st_index": "1",
+							"legal": "3-N",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".hand_razors_retractable",
+							"name": "Hand Razors (Retractable",
+							"essence": "NA",
+							"cost": "+9,000¥",
+							"avail": "6/72 hrs",
+							"st_index": "1",
+							"legal": "3-N",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					{
+						"key": ".muscle_replacement",
+						"name": "Muscle Replacement (Max Rating 4",
+						"essence": "Rating",
+						"cost": "Rating x 20,000¥",
+						"avail": "4/4 days",
+						"st_index": "1",
+						"legal": "5P-Q",
+						"source": ["sr3base","p. 302"]
+					},
+					{
+						"key": ".smartlink",
+						"name": "Smartlink",
+						"essence": "0.5",
+						"cost": "2,500¥",
+						"avail": "3/36 hrs",
+						"st_index": "1",
+						"legal": "5P-N",
+						"source": ["sr3base","p. 302"]
+					},
+					{
+						"key": ".spur",
+						"name": "Spur",
+						"essence": "0.3",
+						"cost": "7,000¥",
+						"avail": "5/72 hrs",
+						"st_index": "1",
+						"legal": "3-N",
+						"source": ["sr3base","p. 302"]
+					  },
+					  {
+						"key": ".spur_retractable",
+						"name": "Spur (Retractable",
+						"essence": "0.3",
+						"cost": "11,500¥",
+						"avail": "5/72 hrs",
+						"st_index": "1",
+						"legal": "3-N",
+						"source": ["sr3base","p. 302"]
+					},
+					{
+						"key": ".voice_modulator",
+						"name": "Voice Modulator",
+						"essence": "0.2",
+						"cost": "45,000¥",
+						"avail": "2/24 hrs",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 302"]
+					},
+					{"key":".voice_modulator_options", "name":"Voice Modulator Options", "list":[
+						  {
+							"key": ".increased_volume",
+							"name": "Increased Volume",
+							"essence": "—",
+							"cost": "10,000¥",
+							"avail": "2/24 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".playback",
+							"name": "Playback",
+							"essence": "—",
+							"cost": "40,000¥",
+							"avail": "2/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".secondary_pattern",
+							"name": "Secondary Pattern",
+							"essence": "—",
+							"cost": "30,000¥ + (20,000¥ x Rating",
+							"avail": "6/72 hrs",
+							"st_index": "2",
+							"legal": "3-Q",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".tonal_shift",
+							"name": "Tonal Shift",
+							"essence": "—",
+							"cost": "25,000¥",
+							"avail": "2/24 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					{"key":".boosted_reflexes", "name":"Boosted Reflexes", "list":[
+						  {
+							"key": ".level_1",
+							"name": "Level 1",
+							"essence": "1",
+							"cost": "15,000¥",
+							"avail": "3/24 hrs",
+							"st_index": "1",
+							"legal": "8P-Q",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_2",
+							"name": "Level 2",
+							"essence": "1.25",
+							"cost": "40,000¥",
+							"avail": "3/24 hrs",
+							"st_index": "1.25",
+							"legal": "6P-Q",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_3",
+							"name": "Level 3",
+							"essence": "2.8",
+							"cost": "90,000¥",
+							"avail": "3/24 hrs",
+							"st_index": "1.5",
+							"legal": "5P-Q",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					{"key":".dermal_plating", "name":"Dermal Plating", "list":[
+						  {
+							"key": ".level_1",
+							"name": "Level 1",
+							"essence": "0.5",
+							"cost": "6,000¥",
+							"avail": "4/12 days",
+							"st_index": "1",
+							"legal": "6P-N",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_2",
+							"name": "Level 2",
+							"essence": "1",
+							"cost": "15,000¥",
+							"avail": "4/12 days",
+							"st_index": "1",
+							"legal": "6P-N",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_3",
+							"name": "Level 3",
+							"essence": "1.5",
+							"cost": "45,000¥",
+							"avail": "4/12 days",
+							"st_index": "1",
+							"legal": "5P-N",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					{"key":".filtration_systems", "name": "Filtration Systems", "list": [
+							{
+							"key": ".air",
+							"name": "Air",
+							"essence": "—",
+							"cost": "Rating x 15,000¥",
+							"avail": "6/4 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".blood",
+							"name": "Blood",
+							"essence": "—",
+							"cost": "Rating x 10,000¥",
+							"avail": "6/4 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".ingested_toxin",
+							"name": "Ingested Toxin",
+							"essence": "—",
+							"cost": "Rating x 10,000¥",
+							"avail": "6/4 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					{"key": ".simrigs", "name":"Simrigs", "list": [
+						  {
+							"key": ".cyberware_simrig_baseline",
+							"name": "Baseline Cyberware Simrig",
+							"essence": "—",
+							"cost": "300,000¥",
+							"avail": "2/5 days",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".cyberware_simrig_fullx",
+							"name": "Full-X Cyberware Simrig",
+							"essence": "—",
+							"cost": "500,000¥",
+							"avail": "6/12 days",
+							"st_index": "3",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".cyberware_simlink",
+							"name": "Simlink (Rating 1–10)",
+							"essence": "0.6",
+							"cost": "70k¥ + (10k¥ x Rating",
+							"avail": "3/5 days",
+							"st_index": "1.5",
+							"legal": "Legal",
+							"source": ["sr3base","p. 302"]
+						  }
+					]},
+					  {
+						"key": ".skillwires",
+						"name": "Skillwires",
+						"essence": "0.2 x Max Rating",
+						"cost": "Max Total Mp x Max Rating x 500¥",
+						"avail": "Rating/10 days",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 302"]
+					 },
+					 {"key":".vehicle_control_rigs", "name":"Vehicle Control Rig", "list":[
+						  {
+							"key": ".level_1",
+							"name": "Level 1",
+							"essence": "2",
+							"cost": "12,000¥",
+							"avail": "6/48 hrs",
+							"st_index": "1",
+							"legal": "6P-N",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_2",
+							"name": "Level 2",
+							"essence": "3",
+							"cost": "60,000¥",
+							"avail": "8/48 hrs",
+							"st_index": "1.25",
+							"legal": "6P-N",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_3",
+							"name": "Level 3",
+							"essence": "5",
+							"cost": "300,000¥",
+							"avail": "8/48 hrs",
+							"st_index": "1.5",
+							"legal": "5P-N",
+							"source": ["sr3base","p. 302"]
+						  }
+					 ]},
+					 {"key": ".wired_reflex_systems", "name": "Wired Reflex Systems", "list": [
+						 {"key": ".std_wired_reflexes", "name": "Standard Wired Reflexes", "list": [
+						 
+						  {
+							"key": ".level_1",
+							"name": "Level 1",
+							"essence": "2",
+							"cost": "55,000¥",
+							"avail": "4/8 days",
+							"st_index": "1",
+							"legal": "5P-Q",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_2",
+							"name": "Level 2",
+							"essence": "3",
+							"cost": "165,000¥",
+							"avail": "4/8 days",
+							"st_index": "1",
+							"legal": "4P-Q",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".level_3",
+							"name": "Level 3",
+							"essence": "5",
+							"cost": "500,000¥",
+							"avail": "4/8 days",
+							"st_index": "1",
+							"legal": "3-R",
+							"source": ["sr3base","p. 302"]
+						  }
+						 ]},
+						  {
+							"key": ".reaction_enhancer",
+							"name": "Reaction Enhancer",
+							"essence": ".3/point",
+							"cost": "60,000¥/point",
+							"avail": "6/7 days",
+							"st_index": "2",
+							"legal": "6P-R",
+							"source": ["sr3base","p. 302"]
+						  },
+						  {
+							"key": ".reflex_trigger",
+							"name": "Reflex Trigger",
+							"essence": "0.2",
+							"cost": "+13,000¥",
+							"avail": "As wired reflexes",
+							"st_index": "As wired reflexes",
+							"legal": "4P-Q",
+							"source": ["sr3base","p. 302"]
+						  }
+					 ]}
+				]}
+			]}
+		]
+	}
+}

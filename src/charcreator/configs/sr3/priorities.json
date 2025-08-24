@@ -1,0 +1,45 @@
+{
+	"schema_version": "0.4",
+
+	  "namespace": {
+		"defines": "sr3.rules.character_creation"
+	  },
+	  
+	"data": {
+		"static": [
+		{"key":".priorities", "name":"Priorities", "rankings": {
+			"A": {
+			  "resources": 1000000,
+			  "attributes": 30,
+			  "skills":  50,
+			  "magic": ["full_magician"]
+			},
+			"B": {
+			  "resources": 400000,
+			  "attributes": 27,
+			  "skills":  40,
+			  "magic": ["adept", "aspected_magician"]
+			},
+			"C": {
+			  "resources": 90000,
+			  "race": ["elf", "troll"],
+			  "attributes": 24,
+			  "skills":  34
+			},
+			"D": {
+			  "resources": 20000,
+			  "race": ["dwarf", "ork"],
+			  "attributes": 21,
+			  "skills":  30
+			},
+			"E": {
+			  "resources": 20000,
+			  "race": ["human"],
+			  "attributes": 18,
+			  "skills":  27
+			}
+		}
+		}
+	]}
+		
+}

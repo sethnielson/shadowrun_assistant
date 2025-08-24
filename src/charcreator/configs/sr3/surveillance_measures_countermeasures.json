@@ -1,0 +1,235 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".surveillance_measures", "name":"Surveillance Measures","list": [
+			  {
+				"key": ".data_codebreaker",
+				"name": "Data Codebreaker",
+				"conceal": "2",
+				"weight": "5",
+				"avail": "Rating/10 days",
+				"cost": "10,000¥ x Rating",
+				"st_index": "1.5",
+				"legal": "4P-V",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".dataline_tap",
+				"name": "Dataline Tap",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "Rating/8 days",
+				"cost": "1,000¥ x Rating",
+				"st_index": "1.5",
+				"legal": "6P-V",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".laser_microphone",
+				"name": "Laser Microphone",
+				"conceal": "5",
+				"weight": "1",
+				"avail": "Rating/48 hrs",
+				"cost": "1,500¥ x Rating",
+				"st_index": "1.5",
+				"legal": "6P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".micro_camcorder",
+				"name": "Micro-Camcorder",
+				"conceal": "8",
+				"weight": "—",
+				"avail": "6/48 hrs",
+				"cost": "2,500¥",
+				"st_index": "2",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".micro_recorder",
+				"name": "Micro-Recorder",
+				"conceal": "9",
+				"weight": "—",
+				"avail": "6/48 hrs",
+				"cost": "500¥ x Rating",
+				"st_index": "2",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".shotgun_microphone",
+				"name": "Shotgun Microphone",
+				"conceal": "5",
+				"weight": "1",
+				"avail": "Rating/36 hrs",
+				"cost": "1,000¥ x Rating",
+				"st_index": "1",
+				"legal": "6P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".signal_locator_standard",
+				"name": "Signal Locator (Standard)",
+				"conceal": "3",
+				"weight": "2",
+				"avail": "Rating/48 hrs",
+				"cost": "200¥ x Rating",
+				"st_index": "1.5",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".signal_locator_aod",
+				"name": "Signal Locator (AOD)",
+				"conceal": "3",
+				"weight": "2",
+				"avail": "Rating/48 hrs",
+				"cost": "500¥ x Rating",
+				"st_index": "1.5",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".sony_hb500_portacam",
+				"name": "Sony HB500 Portacam",
+				"conceal": "—",
+				"weight": "3.5",
+				"avail": "4/72 hrs",
+				"cost": "2,200¥",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".sony_cb5000_cybercam",
+				"name": "Sony CB5000 Cybercam",
+				"conceal": "—",
+				"weight": "5.5",
+				"avail": "5/72 hrs",
+				"cost": "2,700¥",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".tridlink_adaptor",
+				"name": "Tridlink Adaptor",
+				"conceal": "6",
+				"weight": "1",
+				"avail": "2/72 hrs",
+				"cost": "700¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".tracking_signal_standard",
+				"name": "Tracking Signal (Standard)",
+				"conceal": "9",
+				"weight": "—",
+				"avail": "Rating/72 hrs",
+				"cost": "500¥ x Rating",
+				"st_index": "2",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".tracking_signal_aod",
+				"name": "Tracking Signal (AOD)",
+				"conceal": "9",
+				"weight": "—",
+				"avail": "Rating/72 hrs",
+				"cost": "600¥ x Rating",
+				"st_index": "2",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".voice_identifier",
+				"name": "Voice Identifier",
+				"conceal": "2",
+				"weight": "5",
+				"avail": "Rating/72 hrs",
+				"cost": "2,000¥ x Rating",
+				"st_index": "2",
+				"legal": "5P-V",
+				"source": ["sr3base","p. 292"]
+			  }
+			]},
+			{"key": ".surveillance_countermeasures", "name": "Surveillance Countermeasures", "list": [
+			{
+				"key": ".bug_scanner",
+				"name": "Bug Scanner",
+				"conceal": "3",
+				"weight": "1",
+				"avail": "Rating/48 hrs",
+				"cost": "500¥ x Rating",
+				"st_index": "1.5",
+				"legal": "5P-V",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".data_encryption_system",
+				"name": "Data Encryption System",
+				"conceal": "2",
+				"weight": "1",
+				"avail": "Rating/14 days",
+				"cost": "1,000¥ x Rating",
+				"st_index": "2",
+				"legal": "4P-V",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".dataline_scanner",
+				"name": "Dataline Scanner",
+				"conceal": "2",
+				"weight": "1",
+				"avail": "Rating/14 days",
+				"cost": "100¥ x Rating",
+				"st_index": "2",
+				"legal": "4P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".jammer",
+				"name": "Jammer",
+				"conceal": "2",
+				"weight": "5",
+				"avail": "Rating/72 hrs",
+				"cost": "1,000¥ x Rating",
+				"st_index": "1.5",
+				"legal": "3P-U",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".voice_mask",
+				"name": "Voice Mask",
+				"conceal": "6",
+				"weight": "—",
+				"avail": "Rating/72 hrs",
+				"cost": "3,000¥ x Rating",
+				"st_index": "1.5",
+				"legal": "5P-V",
+				"source": ["sr3base","p. 292"]
+			  },
+			  {
+				"key": ".white_noise_generator",
+				"name": "White Noise Generator",
+				"conceal": "3",
+				"weight": "1",
+				"avail": "Rating/72 hrs",
+				"cost": "1,500¥ x Rating",
+				"st_index": "1.5",
+				"legal": "8P-U",
+				"source": ["sr3base","p. 292"]
+			  }
+			]}
+		]
+	}
+}

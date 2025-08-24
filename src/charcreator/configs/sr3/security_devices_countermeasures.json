@@ -1,0 +1,335 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".security_devices", "name":"Security Devices","list": [
+				{"key": ".chem_sniffer", "name": "Chem Sniffer", "list": [
+				{
+					"key": ".chem_sniffer_handheld",
+					"name": "Chem Sniffer (Hand-held)",
+					"conceal": "6",
+					"weight": "1",
+					"avail": "Rating/72 hrs",
+					"cost": "10,000¥ x Rating",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".chem_sniffer_doorway",
+					"name": "Chem Sniffer (Doorway)",
+					"conceal": "4",
+					"weight": "—",
+					"avail": "Rating/2 wks",
+					"cost": "20,000¥ x Rating",
+					"st_index": "3",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 294"]
+				  }
+				]},
+				{
+					"key": ".containment_manacles",
+					"name": "Containment Manacles",
+					"conceal": "—",
+					"weight": "5",
+					"avail": "8/1 wk",
+					"cost": "2,500¥",
+					"st_index": "2",
+					"legal": "4P-V",
+					"source": ["sr3base","p. 294"]
+				},
+				{"key": ".cyberware_scanner", "name": "Cyberware Scanner", "list": [
+				{
+					"key": ".cyberware_scanner_handheld",
+					"name": "Cyberware Scanner (Hand-held)",
+					"conceal": "6",
+					"weight": "1",
+					"avail": "Rating/72 hrs",
+					"cost": "2,000¥ x Rating",
+					"st_index": "2",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".cyberware_scanner_doorway",
+					"name": "Cyberware Scanner (Doorway)",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "Rating/2 wks",
+					"cost": "4,000¥ x Rating",
+					"st_index": "3",
+					"legal": "9P-U",
+					"source": ["sr3base","p. 294"]
+				 }
+				]},
+				{
+					"key": ".headjammer",
+					"name": "Headjammer",
+					"conceal": "3",
+					"weight": "1",
+					"avail": "Rating/72 hrs",
+					"cost": "1,200¥ x Rating",
+					"st_index": "2",
+					"legal": "5P-V",
+					"source": ["sr3base","p. 294"]
+				},
+				{"key":".identification_scanner", "name": "Identification Scanners", "list": [
+				{
+					"key": ".id_scanner_thumbprint",
+					"name": "Identification Scanner (Thumbprint)",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "Rating/72 hrs",
+					"cost": "200¥ x Rating",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".id_scanner_palmprint",
+					"name": "Identification Scanner (Palmprint)",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "(Rating + 1)/72 hrs",
+					"cost": "300¥ x Rating",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".id_scanner_retinal",
+					"name": "Identification Scanner (Retinal)",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "(Rating + 2)/72 hrs",
+					"cost": "1,000¥ x Rating",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				  }
+				]},
+				{
+					"key": ".jackstopper",
+					"name": "Jackstopper",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "4/48 hrs",
+					"cost": "100¥",
+					"st_index": "—",
+					"legal": "8P-V",
+					"source": ["sr3base","p. 294"]
+				},
+				{"key": ".magnetic_anomaly_detector", "name": "Magnetic Anomaly Detector", "list": [
+					{
+						"key": ".magnetic_anomaly_detector_handheld",
+						"name": "Magnetic Anomaly Detector (Hand-held)",
+						"conceal": "6",
+						"weight": "1",
+						"avail": "Rating/36 hrs",
+						"cost": "2,500¥ x Rating",
+						"st_index": "2",
+						"legal": "8P-U",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".magnetic_anomaly_detector_doorway",
+						"name": "Magnetic Anomaly Detector (Doorway)",
+						"conceal": "8",
+						"weight": "—",
+						"avail": "Rating/2 wks",
+						"cost": "5,000¥ x Rating",
+						"st_index": "3",
+						"legal": "9P-U",
+						"source": ["sr3base","p. 294"]
+					}
+				]},
+				{"key": ".maglocks", "name": "Maglocks", "list": [
+					{
+						"key": ".maglock_type_i_rating_1_3",
+						"name": "Maglock Type I (Rating 1–3)",
+						"conceal": "—",
+						"weight": "—",
+						"avail": "Rating/2 days",
+						"cost": "75¥ x Rating",
+						"st_index": ".75",
+						"legal": "Legal",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".maglock_type_ii_rating_4_6",
+						"name": "Maglock Type II (Rating 4–6)",
+						"conceal": "—",
+						"weight": "—",
+						"avail": "Rating/3 days",
+						"cost": "100¥ x Rating",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".maglock_type_iii_rating_7_9",
+						"name": "Maglock Type III (Rating 7–9)",
+						"conceal": "—",
+						"weight": "—",
+						"avail": "Rating/3.5 days",
+						"cost": "150¥ x Rating",
+						"st_index": "1.25",
+						"legal": "Legal",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".maglock_type_iv_rating_10",
+						"name": "Maglock Type IV (Rating 10)",
+						"conceal": "—",
+						"weight": "—",
+						"avail": "Rating/4 days",
+						"cost": "250¥ x Rating",
+						"st_index": "1.5",
+						"legal": "Legal",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".maglock_biometric",
+						"name": "Biometric Maglock",
+						"conceal": "—",
+						"weight": "—",
+						"avail": "Rating/5 days",
+						"cost": "350¥ x Rating",
+						"st_index": "2",
+						"legal": "Legal",
+						"source": ["sr3base","p. 294"]
+					}
+				]},
+				{
+					"key": ".panicbutton_hookup",
+					"name": "PANICBUTTON Hook-Up",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "1,000¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				},
+				{"key":".restraints", "name": "Restraints", "list": [
+					{
+						"key": ".restraints_metal",
+						"name": "Restraints (Metal)",
+						"conceal": "3",
+						"weight": ".5",
+						"avail": "4/48 hrs",
+						"cost": "20¥",
+						"st_index": "1",
+						"legal": "6P-U",
+						"source": ["sr3base","p. 294"]
+					  },
+					  {
+						"key": ".restraints_plasteel",
+						"name": "Restraints (Plasteel)",
+						"conceal": "3",
+						"weight": ".5",
+						"avail": "4/48 hrs",
+						"cost": "50¥",
+						"st_index": "2",
+						"legal": "9P-U",
+						"source": ["sr3base","p. 294"]
+					  }
+				]},
+				{
+					"key": ".skillwritchers",
+					"name": "Skillwritchers",
+					"conceal": "9",
+					"weight": "—",
+					"avail": "6/72 hrs",
+					"cost": "200¥",
+					"st_index": "2",
+					"legal": "4P-V",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".squealer",
+					"name": "Squealer",
+					"conceal": "4",
+					"weight": "—",
+					"avail": "6/72 hrs",
+					"cost": "100¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				}
+			]},
+			{"key": ".security_countermeasures", "name": "Security Countermeasures", "list": [
+				 {
+					"key": ".gas_detection_system",
+					"name": "Gas Detection System",
+					"conceal": "5",
+					"weight": "1",
+					"avail": "(Rating x 3)/7 days",
+					"cost": "1,000¥ x Rating",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".maglock_passkey_illegal",
+					"name": "Maglock Passkey (illegal)",
+					"conceal": "12",
+					"weight": "1",
+					"avail": "(Rating x 2)/10 days",
+					"cost": "10,000¥ x Rating",
+					"st_index": "3",
+					"legal": "4P-V",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".sequencer",
+					"name": "Sequencer",
+					"conceal": "8",
+					"weight": "2",
+					"avail": "(Rating x 2)/2 wks",
+					"cost": "(500¥ x Rating x 3)",
+					"st_index": "3",
+					"legal": "4P-V",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".ultrasound_detector",
+					"name": "Ultrasound Detector",
+					"conceal": "8",
+					"weight": "2",
+					"avail": "Rating/72 hrs",
+					"cost": "40¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".ultrasound_emitter_detector",
+					"name": "Ultrasound Emitter/Detector",
+					"conceal": "8",
+					"weight": ".5",
+					"avail": "(Rating x 2)/72 hrs",
+					"cost": "Rating x 400¥",
+					"st_index": "3",
+					"legal": "8P-U",
+					"source": ["sr3base","p. 294"]
+				  },
+				  {
+					"key": ".wire_clippers",
+					"name": "Wire Clippers",
+					"conceal": "12",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "25¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 294"]
+				}
+			]}
+		]
+	}
+}

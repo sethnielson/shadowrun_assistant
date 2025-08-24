@@ -1,0 +1,444 @@
+{
+	
+  "schema_version": "0.4",
+
+  "namespace": {
+    "defines": "sr3.skills"
+  },
+
+  "group": "Skills",
+  
+  "data": {
+	  "static": [
+	  {
+		"key": ".active", "name":"Active Skills","list": [
+		  {"key": ".assault_rifles","name":"Assault Rifles","linked_attribute":"quickness","category":"combat",
+			"description":"{%this['name']%} covers the use of all multi-firing rifles.",
+			"default":[".rifles", ".shotguns", ".submachine_guns", ".pistols"],
+			"specializations":["By specific weapon (player/GM choice)"],
+			"tags":["custom_speccialization", "associated_BR"],
+			"source":["sr3base","p.85"]
+		  },
+		  {"key": ".clubs","name":"Clubs","linked_attribute":"strength","category":"combat",
+			"description":"{%this['name']%} governs the use of hand-held melee weapons that have no edge or blade and are less than one meter long.",
+			"default":[".edged_weapons", ".pole_arms_staffs"],
+			"specializations":["By specific weapon (player/GM choice)"],
+			"tags":["custom_speccialization", "associated_BR"],
+			"source":["sr3base","p.85"]
+		  },
+		  {"key": ".cyber_implant_combat","name":"Cyber-Implant Combat","linked_attribute":"strength","category":"combat",
+			"description":"{%this['name']%} is a new combat discipline that developed since the advent of combat-oriented cyberware.",
+			"default":[".unarmed_combat"],
+			"specializations":["By specific weapon (player/GM choice)"],
+			"tags":["custom_speccialization", "associated_BR"],
+			"source":["sr3base","p.85"]
+		  },
+		  {
+    "key": ".pistols",
+    "name": "Pistols",
+    "linked_attribute": "quickness",
+    "category": "combat",
+    "description": "{%this['name']%} covers the use of hold-out, light, and heavy pistols, including revolvers.",
+    "default": [".submachine_guns", ".shotguns", ".rifles", ".assault_rifles"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".submachine_guns",
+    "name": "Submachine Guns",
+    "linked_attribute": "quickness",
+    "category": "combat",
+    "description": "{%this['name']%} covers compact automatic firearms firing pistol-caliber ammunition.",
+    "default": [".pistols", ".shotguns", ".rifles", ".assault_rifles"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".rifles",
+    "name": "Rifles",
+    "linked_attribute": "quickness",
+    "category": "combat",
+    "description": "{%this['name']%} covers single-shot, bolt-action, and semi-automatic rifles.",
+    "default": [".assault_rifles", ".shotguns", ".submachine_guns", ".pistols"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".shotguns",
+    "name": "Shotguns",
+    "linked_attribute": "quickness",
+    "category": "combat",
+    "description": "{%this['name']%} covers the use of shot-firing longarms, including pump and semi-automatic models.",
+    "default": [".rifles", ".assault_rifles", ".submachine_guns", ".pistols"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".heavy_weapons",
+    "name": "Heavy Weapons",
+    "linked_attribute": "strength",
+    "category": "combat",
+    "description": "The {%this['name']%} skill gives the user the know-how to handle anything larger than an assault rifle, including when they are mounted on fixed emplacements (but not on vehicles).",
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "linked_attribute_default_only", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".launch_weapons",
+    "name": "Launch Weapons",
+    "linked_attribute": "intelligence",
+    "category": "combat",
+    "description": "The {%this['name']%} skill covers the use and targeting of any device that fires a missle, rocket, or other explosive projectile including mortars but no in or on vehicles. This skill covers manual and sensor-enhanced fire, and also governs the use of both specific grenade-launching weapons and underbarrel grenade-launching weapons.",
+    "default": [".gunnery"],
+    "specializations":  [
+		"By specific weapon (player/GM choice)",
+		"spotter"
+		],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".gunnery",
+    "name": "Gunnery",
+    "linked_attribute": "intelligence",
+    "category": "combat",
+    "description": "{%this['name']%} covers firing vehicle/drone/turret-mounted weapons and smart platforms.",
+    "default": [".launch_weapons"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".throwing_weapons",
+    "name": "Throwing Weapons",
+    "linked_attribute": "strength",
+    "category": "combat",
+    "description": "{%this['name']%} covers thrown items used as weapons, including grenades and knives.",
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "linked_attribute_default_only", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".edged_weapons",
+    "name": "Edged Weapons",
+    "linked_attribute": "strength",
+    "category": "combat",
+    "description": "{%this['name']%} covers melee weapons with cutting edges such as knives and swords.",
+    "default": [".clubs", ".pole_arms_staffs"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".pole_arms_staffs",
+    "name": "Pole Arms/Staffs",
+    "linked_attribute": "quickness",
+    "category": "combat",
+    "description": "{%this['name']%} covers melee weapons longer than one meter such as spears, staves, and polearms.",
+    "default": [".edged_weapons", ".clubs"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "tags":["custom_speccialization", "associated_BR"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".projectile_weapons",
+    "name": "Projectile Weapons",
+    "linked_attribute": "strength",
+    "category": "combat",
+    "description": "{%this['name']%} covers non-firearm, muscle-powered ranged weapons such as bows and crossbows.",
+    "specializations": ["pull-bows", "crossbows"],
+    "tags":["custom_speccialization", "linked_attribute_default_only", "associated_BR"],
+    "source": ["sr3base","p.85"]
+  },
+  {
+    "key": ".unarmed_combat",
+    "name": "Unarmed Combat",
+    "linked_attribute": "strength",
+    "category": "combat",
+    "description": "{%this['name']%} covers striking, grappling, and other hand-to-hand techniques without a weapon.",
+    "default": [".cyber_implant_combat"],
+    "specializations": ["By specific weapon (player/GM choice)"],
+    "allow_custom_specialization": "true",
+	"tags":["custom_speccialization"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".aura_reading",
+    "name": "Aura Reading",
+    "linked_attribute": "intelligence",
+    "category": "magic",
+    "description": "{%this['name']%} is the skill of psychometry, learning information from people's auras, astral forms, and signatures. It can function as a Complementary Skill for Assensing Tests.",
+    "specializations": ["Auras", "Signatures", "Sorcery", "Conjuring"],
+    "tags": ["custom_specialization", "no_default"],
+    "source": ["sr3base","p.86"]
+  },
+  {
+    "key": ".sorcery",
+    "name": "Sorcery",
+    "linked_attribute": "willpower",
+    "category": "magic",
+    "description": "{%this['name']%} governs the control of magical energy, usually in the form of spells.",
+    "specializations": ["Spellcasting", "Spell Defense", "Dispelling", "Astral Combat", "Spell Category"],
+    "tags": ["custom_specialization","requires_magic", "no_default"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".conjuring",
+    "name": "Conjuring",
+    "linked_attribute": "willpower",
+    "category": "magic",
+    "description": "{%this['name']%} governs the calling and banishing of spirits. Mages can call elementals; shamans can call nature spirits.",
+    "specializations": ["Summoning", "Banishing", "Controlling"],
+    "tags": ["custom_specialization","requires_magic", "no_default"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".athletics",
+    "name": "Athletics",
+    "linked_attribute": "body",
+    "category": "physical",
+    "description": "{%this['name']%} reflects training to perform extreme physical activities and can be used to increase running distance.",
+    "specializations": ["Running", "Climbing", "Lifting", "Jumping", "Escape Artist", "Swimming", "Specific Sport"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".diving",
+    "name": "Diving",
+    "linked_attribute": "body",
+    "category": "physical",
+    "description": "{%this['name']%} covers underwater swimming techniques and the use of scuba and other underwater gear.",
+    "specializations": ["Deep-water Diving", "Mixed-gas Diving"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".stealth",
+    "name": "Stealth",
+    "linked_attribute": "quickness",
+    "category": "physical",
+    "description": "{%this['name']%} governs sneaking, sleight of hand, eluding a tail, and the use of camouflage and disguises. Often resolved as an Open Test.",
+    "specializations": ["Alertness", "Hiding", "Sneaking", "Theft"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".etiquette",
+    "name": "Etiquette",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} allows a character to function within a specific subculture without appearing out of place, recognize prominent figures, and know their general traits. See Etiquette, p.94.",
+    "specializations": ["By Subculture"],
+    "tags": ["linked_attribute_default_only","custom_specialization"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".instruction",
+    "name": "Instruction",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} allows a character to more efficiently teach something to another character. See Instruction, p.95.",
+    "specializations": ["By Specific Subject"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".interrogation",
+    "name": "Interrogation",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} governs the extraction of information from an unwilling subject.",
+    "default": [".intimidation"],
+    "specializations": ["Verbal", "Lie Detector", "Voice-Stress Analysis", "Torture", "Drug-Aided"],
+    "tags": ["custom_specialization"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".intimidation",
+    "name": "Intimidation",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} allows a character to coerce others through fear, whether as a weaker form of Interrogation or a forceful version of Negotiation.",
+    "default": [".interrogation"],
+    "specializations": ["Physical", "Mental"],
+    "tags": ["custom_specialization", "custom_specialization"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".leadership",
+    "name": "Leadership",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} governs a character's ability to get others to follow through example and authority. It includes aspects of problem-solving, but not as a replacement for player decision-making.",
+    "specializations": ["Political", "Military", "Commercial", "Strategy", "Tactics", "Morale"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.87"]
+  },
+  {
+    "key": ".negotiation",
+    "name": "Negotiation",
+    "linked_attribute": "charisma",
+    "category": "social",
+    "description": "{%this['name']%} governs interactions where each side seeks to come out ahead, whether through bargaining, bribery, or fast talk.",
+    "specializations": ["Bargain", "Bribe", "Con", "Fast Talk"],
+    "tags": ["custom_specialization", "linked_attribute_default_only"],
+    "source": ["sr3base","p.88"]
+  },
+  {
+    "key": ".biotech",
+    "name": "Biotech",
+    "linked_attribute": "intelligence",
+    "category": "technical",
+    "description": "{%this['name']%} governs basic medicine and first aid. A character with this skill understands medicine in a hands-on sense, as a paramedic rather than a physician. Though familiar with cyberware techniques and materials, they still need a computer expert to handle interface systems.",
+    "specializations": ["Cybertechnology Implantation", "Extended Care", "First Aid", "Organ Culture & Growth", "Surgery", "Transimplant Surgery"],
+    "tags": ["custom_specialization", "linked_attribute_default_only", "associated_BR"],
+    "source": ["sr3base","p.88"]
+  },
+  {
+    "key": ".computer",
+    "name": "Computer",
+    "linked_attribute": "intelligence",
+    "category": "technical",
+    "description": "{%this['name']%} governs the use and understanding of computer technology and programming, including decking in the Matrix.",
+    "default": [".electronics"],
+    "specializations": ["Hardware", "Decking", "Programming", "Cybernetics"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.88"]
+  },
+  {
+    "key": ".demolitions",
+    "name": "Demolitions",
+    "linked_attribute": "intelligence",
+    "category": "technical",
+    "description": "{%this['name']%} governs the preparation, measuring, and setting of chemical explosives.",
+    "specializations": ["Commercial Explosives", "Plastic Explosives", "Improvised Explosives"],
+    "tags": ["custom_specialization", "linked_attribute_default_only", "associated_BR"],
+    "source": ["sr3base","p.88"]
+  },
+  {
+    "key": ".electronics",
+    "name": "Electronics",
+    "linked_attribute": "intelligence",
+    "category": "technical",
+    "description": "{%this['name']%} governs the use and understanding of electronic devices, which in the 2060s covers nearly everything in urban life.",
+    "default": [".computer"],
+    "specializations": ["Control Systems", "Electronic Warfare", "Maglocks", "Linking between Devices", "Diagnostics", "Cybertechnology"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.88"]
+  },
+  {
+    "key": ".bike",
+    "name": "Bike",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the use of motorcycles, motortrikes, and bikes with sidecars.",
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["linked_attribute_default_only","custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".car",
+    "name": "Car",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} covers the operation of motor vehicles with four or more wheels.",
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["linked_attribute_default_only","custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".fixed_wing_aircraft",
+    "name": "Fixed-Wing Aircraft",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the control of fixed- or swing-wing aircraft (jet, prop, turbo-prop) and unpowered aircraft.",
+    "default": [".rotor_aircraft", ".vector_thrust_aircraft", ".lta_aircraft"],
+    "specializations": [
+		"By specific vehicle (player/GM choice)",
+		"Remote Operations"
+		],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".hovercraft",
+    "name": "Hovercraft",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs all hover vehicles, regardless of their purpose.",
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["linked_attribute_default_only","custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".lta_aircraft",
+    "name": "LTA Aircraft",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} encompasses the use of all lighter-than-air craft, such as zeppelins and blimps.",
+    "default": [".fixed_wing_aircraft", ".rotor_aircraft", ".vector_thrust_aircraft"],
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".motorboat",
+    "name": "Motorboat",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} covers the operation of any motorized watercraft.",
+    "default": [".ship"],
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".rotor_aircraft",
+    "name": "Rotor Aircraft",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the use of rotorcraft, including helicopters and tilt-rotor aircraft.",
+    "default": [".fixed_wing_aircraft", ".vector_thrust_aircraft", ".lta_aircraft"],
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".sailboat",
+    "name": "Sailboat",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the use of sail-powered watercraft.",
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["linked_attribute_default_only","custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".ship",
+    "name": "Ship",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the piloting, navigation, and handling of large surface ships.",
+    "default": [".motorboat"],
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  },
+  {
+    "key": ".submarine",
+    "name": "Submarine",
+    "linked_attribute": "reaction",
+    "category": "vehicle",
+    "description": "{%this['name']%} governs the use of boats capable of operating underwater.",
+    "specializations": ["By specific vehicle (player/GM choice)", "Remote Operations"],
+    "tags": ["linked_attribute_default_only","custom_specialization", "associated_BR"],
+    "source": ["sr3base","p.89"]
+  }
+  ]}
+
+  ]}
+}

@@ -1,0 +1,124 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".rigger_gear", "name":"Rigger Gear", "list": [
+			  {
+				"key": ".datajack_port",
+				"name": "Datajack Port",
+				"avail": "3/72 hrs",
+				"cost": "2,500¥ (5,000¥ bikes)",
+				"st_index": "1.5",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  },
+			  {
+				"key": ".remote_control_gear",
+				"name": "Remote Control Gear",
+				"avail": "4/72 hrs",
+				"cost": "2,500¥ × Body",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  },
+			  {
+				"key": ".vehicle_control_gear",
+				"name": "Vehicle Control Gear",
+				"avail": "4/7 days",
+				"cost": "2,500¥",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  }
+			]},
+			{"key":".vehicle_gear", "name":"Vehicle Gear", "list": [
+			  {
+				"key": ".remote_control_deck",
+				"name": "Remote Control Deck",
+				"weight": "3",
+				"cost": "5,000¥ × Rating",
+				"avail": "4/72 hrs",
+				"st_index": "2",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  },
+			  {"key": ".remote_control_eccm", "name":"Remote Control ECCM", "list": [
+				  {
+					"key": ".ratings_1_3",
+					"name": "Ratings 1–3",
+					"weight": "1.5",
+					"cost": "Rating × 7,500¥",
+					"avail": "4/7 days",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 306"]
+				  },
+				  {
+					"key": ".ratings_4_6",
+					"name": "Ratings 4–6",
+					"weight": "2",
+					"cost": "Rating × 15,000¥",
+					"avail": "6/14 days",
+					"st_index": "3",
+					"legal": "6P-V",
+					"source": ["sr3base","p. 306"]
+				  },
+				  {
+					"key": ".ratings_7_9",
+					"name": "Ratings 7–9",
+					"weight": "2.5",
+					"cost": "Rating × 35,000¥",
+					"avail": "12/28 days",
+					"st_index": "4",
+					"legal": "5P-W",
+					"source": ["sr3base","p. 306"]
+				  },
+				  {
+					"key": ".rating_10",
+					"name": "Rating 10",
+					"weight": "2.5",
+					"cost": "500,000¥",
+					"avail": "18/45 days",
+					"st_index": "—",
+					"legal": "4P-W",
+					"source": ["sr3base","p. 306"]
+				  }
+			  ]},
+			  {
+				"key": ".hitcher_jacks",
+				"name": "Hitcher Jacks",
+				"weight": "0.25",
+				"cost": "Rating × 100¥ per jack",
+				"avail": "2/48 hrs",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  },
+			  {
+				"key": ".audio_visual_screen_displays",
+				"name": "Audio/Visual Screen Displays",
+				"weight": "0.5",
+				"cost": "100¥",
+				"avail": "2/24 hrs",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  },
+			  {
+				"key": ".intercom_speaker",
+				"name": "Intercom Speaker",
+				"weight": "0",
+				"cost": "25¥",
+				"avail": "2/24 hrs",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 306"]
+			  }
+			]}
+		]
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1",
+
+  "namespace": {
+    "defines": "sr3.races"
+  },
+
+  "group": "Races",
+  "data" : {
+	  "static": [
+			{
+			  "name": "Human",
+			  "key": ".human"
+			},
+			{
+			  "name": "Elf",
+			  "key": ".elf",
+			  "racial_attribute_modifiers": {
+				"sr3.attributes.quickness":"+1",
+				"sr3.attributes.charisma":"+2"
+			  },
+			  "other": [
+				"Thermographic Vision",
+				"Resistance (+2 Body) to any disease or toxin"
+			  ]
+			},
+			{
+			  "name": "Dwarf",
+			  "key": ".dwarf",
+			  "racial_attribute_modifiers": {
+				"sr3.attributes.body":"+1",
+				"sr3.attributes.strength":"+2",
+				"sr3.attributes.willpower":"+1"
+			  }
+			},
+			{
+			  "name": "Ork",
+			  "key": ".ork",
+			  "racial_attribute_modifiers": {
+				"sr3.attributes.body":"+3",
+				"sr3.attributes.strength":"+2",
+				"sr3.attributes.charisma":"-1",
+				"sr3.attributes.intelligence":"-1"
+			  },
+			  "other": [
+				"Low-light vision"
+				]
+			},
+			{
+			  "name": "Troll",
+			  "key": ".troll",
+			  "racial_attribute_modifiers": {
+				"sr3.attributes.body":"+5",
+				"sr3.attributes.strength":"+4",
+				"sr3.attributes.quickness":"-1",
+				"sr3.attributes.charisma":"-2",
+				"sr3.attributes.intelligence":"-2"
+			  },
+			  "other": [
+				"Thermographic vision",
+				"+1 Reach for Armed/Unarmed Combat",
+				"Dermal Armor (+1 Body)"
+				]
+			}
+	]
+  }
+}

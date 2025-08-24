@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+
+  "namespace": {
+    "defines": "sr3.attributes"
+  },
+
+  "group": "Primary Attributes",
+
+  "data": {
+	"static": [
+    { "key": ".body", "name": "Body"},
+    { "key": ".quickness", "name": "Quickness" },
+    { "key": ".strength", "name": "Strength"},
+    { "key": ".charisma", "name": "Charisma" },
+    { "key": ".intelligence", "name": "Intelligence"},
+    { "key": ".willpower", "name": "Willpower"},
+    { "key": ".essence", "name": "Essence"},
+    { "key": ".magic", "name": "Magic"},
+    { "key": ".reaction", "name": "Reaction"}
+	]
+  } 
+}

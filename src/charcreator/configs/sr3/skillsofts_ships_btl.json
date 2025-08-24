@@ -1,0 +1,138 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".skillsofts_chips", "name":"Skillsofts and Chips","list": [
+			  {
+				"key": ".activesoft",
+				"name": "Activesoft",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "6/4 days",
+				"cost": "Mp x 100¥",
+				"st_index": "1.25",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".datasoft",
+				"name": "Datasoft",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "4/4 days",
+				"cost": "Mp x 100¥*",
+				"st_index": "1.25",
+				"legal": "Legal",
+				"notes": "More valuable data will cost more.",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".knowsoft",
+				"name": "Knowsoft",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "5/4 days",
+				"cost": "Mp x 150¥",
+				"st_index": "1.25",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".linguasoft",
+				"name": "Linguasoft",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "6/36 hrs",
+				"cost": "Mp x 50¥",
+				"st_index": "1.25",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".skillsoft_jukebox",
+				"name": "Skillsoft Jukebox",
+				"conceal": "3",
+				"weight": "—",
+				"avail": "3/72 hrs",
+				"cost": "Ports x MP x 20¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".optical_memory_chip",
+				"name": "Optical Memory Chip",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "Always",
+				"cost": "MP x 5¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".autonav_map_chip",
+				"name": "Autonav Map Chip",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "Always",
+				"cost": "25¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".virtual_instructor_chip",
+				"name": "Virtual Instructor Chip",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "Ratings Total/72 hrs",
+				"cost": "MP x 100¥",
+				"st_index": "1",
+				"legal": "Legal/3-Y",
+				"source": ["sr3base","p. 296"]
+			},
+
+			{"key": ".btls", "name": "BTLs", "list": [
+			  {
+				"key": ".direct_input_chip",
+				"name": "Direct Input Chip",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "3/12 hrs",
+				"cost": "250¥",
+				"st_index": "1",
+				"legal": "3-Y",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".dreamdeck_chip",
+				"name": "Dreamdeck Chip",
+				"conceal": "12",
+				"weight": "—",
+				"avail": "3/12 hrs",
+				"cost": "100¥",
+				"st_index": "1",
+				"legal": "3-Y",
+				"source": ["sr3base","p. 296"]
+			  },
+			  {
+				"key": ".btl_modified_simdeck",
+				"name": "BTL-modified simdeck",
+				"conceal": "3",
+				"weight": "—",
+				"avail": "3/12 hrs",
+				"cost": "250¥",
+				"st_index": "1",
+				"legal": "3-Y",
+				"source": ["sr3base","p. 296"]
+				}
+				]}
+			]}
+		]
+	}
+}

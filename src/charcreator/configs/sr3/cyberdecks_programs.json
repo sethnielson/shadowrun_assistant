@@ -1,0 +1,144 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".cyberdecks", "name":"Cyberdecks", "list": [
+				{"key": ".stock_cyberdecks", "name": "Stock Cyberdeck Types", "list": [
+				  {
+					"key": ".cyberdeck_allegiance_sigma",
+					"name": "Allegiance Sigma",
+					"avail": "4/7 days",
+					"cost": "14,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_sony_cty_360_d",
+					"name": "Sony CTY-360-D",
+					"avail": "4/7 days",
+					"cost": "70,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_novatech_hyperdeck_6",
+					"name": "Novatech Hyperdeck-6",
+					"avail": "4/7 days",
+					"cost": "125,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_cmt_avatar",
+					"name": "CMT Avatar",
+					"avail": "6/7 days",
+					"cost": "250,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_renraku_kraftwerk_8",
+					"name": "Renraku Kraftwerk-8",
+					"avail": "10/7 days",
+					"cost": "400,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_transys_highlander",
+					"name": "Transys Highlander",
+					"avail": "14/7 days",
+					"cost": "600,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_novatech_slimcase_10",
+					"name": "Novatech Slimcase-10",
+					"avail": "18/7 days",
+					"cost": "960,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".cyberdeck_fairlight_excalibur",
+					"name": "Fairlight Excalibur",
+					"avail": "22/7 days",
+					"cost": "1,500,000¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  }
+				]},
+				{"key":".cyberdeck_system_additions", "name":"Cyberdeck System Additions", "list": [
+
+				  {
+					"key": ".hitcher_jack",
+					"name": "Hitcher Jack",
+					"avail": "2/48 hrs",
+					"cost": "250¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".offline_storage",
+					"name": "Off-line Storage",
+					"avail": "2/24 hrs",
+					"cost": "50¥ + (5 × Mp",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  },
+				  {
+					"key": ".vidscreen_display",
+					"name": "Vidscreen Display",
+					"avail": "2/24 hrs",
+					"cost": "100¥",
+					"st_index": "1",
+					"source": ["sr3base","p. 304"]
+				  }
+				]}
+			]},
+			{"key":".cyberdeck_programs", "name":"Cyberdeck Programs", "list": [
+			  {
+				"key": ".rating_1_3",
+				"name": "Rating 1–3",
+				"rating": "1–3",
+				"avail": "2/7 days",
+				"cost": "Size × 100¥",
+				"st_index": "1",
+				"source": ["sr3base","p. 304"]
+			  },
+			  {
+				"key": ".rating_4_6",
+				"name": "Rating 4–6",
+				"rating": "4–6",
+				"avail": "4/7 days",
+				"cost": "Size × 200¥",
+				"st_index": "1.5",
+				"source": ["sr3base","p. 304"]
+			  },
+			  {
+				"key": ".rating_7_9",
+				"name": "Rating 7–9",
+				"rating": "7–9",
+				"avail": "8/14 days",
+				"cost": "Size × 500¥",
+				"st_index": "2",
+				"source": ["sr3base","p. 304"]
+			  },
+			  {
+				"key": ".rating_10_plus",
+				"name": "Rating 10+",
+				"rating": "10+",
+				"avail": "16/30 days",
+				"cost": "Size × 1,000¥",
+				"st_index": "3",
+				"source": ["sr3base","p. 304"]
+			  }
+			]}
+		]
+	}
+}

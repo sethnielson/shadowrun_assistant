@@ -1,0 +1,123 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".vehicle_mounts", "name":"Vehicle Mounts","list": [
+			  {
+				"key": ".external_firmpoint_fixed_mount",
+				"name": "External Firmpoint Fixed Mount",
+				"cf_cost": "1",
+				"load": "10kg",
+				"avail": "6/7 days",
+				"cost": "750¥",
+				"st_index": "2",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".external_hardpoint_fixed_mount",
+				"name": "External Hardpoint Fixed Mount",
+				"cf_cost": "2",
+				"load": "10kg",
+				"avail": "6/7 days",
+				"cost": "2000¥",
+				"st_index": "2",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".internal_firmpoint_fixed_mount",
+				"name": "Internal Firmpoint Fixed Mount",
+				"cf_cost": "5",
+				"load": "10kg",
+				"avail": "6/7 days",
+				"cost": "1,500¥",
+				"st_index": "2",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".internal_hardpoint_fixed_mount",
+				"name": "Internal Hardpoint Fixed Mount",
+				"cf_cost": "7",
+				"load": "10kg",
+				"avail": "6/7 days",
+				"cost": "3,000¥",
+				"st_index": "2",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".pintle_mount",
+				"name": "Pintle Mount",
+				"cf_cost": "0",
+				"load": "0",
+				"avail": "4/96 hrs",
+				"cost": "50¥",
+				"st_index": "1.5",
+				"legal": "Legal",
+				"rc": "2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".turret",
+				"name": "Turret",
+				"cf_cost": "8",
+				"load": "100kg",
+				"avail": "12/30 days",
+				"cost": "7,500¥",
+				"st_index": "3",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".mini_turret",
+				"name": "Mini-turret",
+				"cf_cost": "7",
+				"load": "25kg",
+				"avail": "12/30 days",
+				"cost": "5,000¥",
+				"st_index": "2",
+				"legal": "3P-V",
+				"rc": "-1/2",
+				"source": ["sr3base","p. 312"]
+			  }
+			]},
+			{"key":".vehicle_weapons", "name":"Vehicle Weapons", "list": [
+			  {
+				"key": ".ares_vermicide_autocannon",
+				"name": "Ares Vermicide Autocannon",
+				"type": "Cannon",
+				"ammo": "10(c)",
+				"mode": "SA",
+				"damage": "12D",
+				"weight": "45",
+				"cost": "12,000¥",
+				"notes": "GM determines Availability, Legality, and Street Index for vehicle-grade weapons.",
+				"source": ["sr3base","p. 312"]
+			  },
+			  {
+				"key": ".water_cannon",
+				"name": "Water Cannon",
+				"type": "\"Shotgun\"",
+				"ammo": "20",
+				"mode": "SA",
+				"damage": "6M Stun",
+				"weight": "12",
+				"cost": "20,000¥",
+				"notes": "GM determines Availability, Legality, and Street Index for vehicle-grade weapons.",
+				"source": ["sr3base","p. 312"]
+			  }
+			]}
+		]
+	}
+}

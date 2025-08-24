@@ -1,0 +1,309 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".weapon_accessories", "name":"Weapon Accessories","list": [
+				{"key": ".general", "name":"General", "list": [
+			  {
+				"key": ".bipod",
+				"name": "Bipod",
+				"mount": "Under",
+				"conceal": "—",
+				"rating": "2",
+				"weight": "2",
+				"avail": "6/12 hrs",
+				"cost": "400¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".concealable_holster",
+				"name": "Concealable Holster",
+				"mount": "—",
+				"conceal": "+2",
+				"rating": "—",
+				"weight": ".1",
+				"avail": "2/24 hrs",
+				"cost": "100¥",
+				"st_index": ".75",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".silencer",
+				"name": "Silencer",
+				"mount": "Barrel",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": ".2",
+				"avail": "4/48 hrs",
+				"cost": "500¥",
+				"st_index": "2",
+				"legal": "As Weapon",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".sound_suppresser",
+				"name": "Sound Suppresser",
+				"mount": "Barrel",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": ".5",
+				"avail": "6/48 hrs",
+				"cost": "750¥",
+				"st_index": "2",
+				"legal": "As Weapon",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".spare_clips",
+				"name": "Spare Clips",
+				"mount": "—",
+				"conceal": "—",
+				"rating": "—",
+				"weight": ".75",
+				"avail": "2/24 hrs",
+				"cost": "5¥",
+				"st_index": ".75",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".tripod",
+				"name": "Tripod",
+				"mount": "Under",
+				"conceal": "—",
+				"rating": "6",
+				"weight": "8",
+				"avail": "10/12 hrs",
+				"cost": "600¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  }
+				]},
+				{"key":".recoil_compensators_gyros", "name":"Recoil Compensators and Gyros", "list":[ 
+			  {
+				"key": ".gas_vent_ii",
+				"name": "Gas Vent II",
+				"mount": "Barrel",
+				"conceal": "-1",
+				"rating": "2",
+				"weight": ".5",
+				"avail": "2/24 hrs",
+				"cost": "450¥",
+				"st_index": ".8",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".gas_vent_iii",
+				"name": "Gas Vent III",
+				"mount": "Barrel",
+				"conceal": "-2",
+				"rating": "3",
+				"weight": ".75",
+				"avail": "2/24 hrs",
+				"cost": "700¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".gyro_mount_deluxe",
+				"name": "Gyro Mount, Deluxe",
+				"mount": "Under",
+				"conceal": "-6",
+				"rating": "6",
+				"weight": "8",
+				"avail": "4/48 hrs",
+				"cost": "6,000¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".gyro_mount_standard",
+				"name": "Gyro Mount, Standard",
+				"mount": "Under",
+				"conceal": "-5",
+				"rating": "6",
+				"weight": "6",
+				"avail": "4/48 hrs",
+				"cost": "2,500¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".shock_pads",
+				"name": "Shock Pads",
+				"mount": "—",
+				"conceal": "—",
+				"rating": "1",
+				"weight": ".25",
+				"avail": "2/24 hrs",
+				"cost": "200¥",
+				"st_index": ".75",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  }
+				]},
+				{"key": ".imaging_systems", "name":"Imaging Systems", "list":[
+					{"key": ".imaging_scopes", "name":"Imaging Scopes", "list": [
+			  {
+				"key": ".low_light",
+				"name": "Low-Light",
+				"mount": "Top",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": ".25",
+				"avail": "3/36 hrs",
+				"cost": "1,500¥",
+				"st_index": ".8",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".magnification_1",
+				"name": "Magnification 1",
+				"mount": "Top",
+				"conceal": "-1",
+				"rating": "1",
+				"weight": ".25",
+				"avail": "3/36 hrs",
+				"cost": "500¥",
+				"st_index": ".8",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".magnification_2",
+				"name": "Imaging Scope: Magnification 2",
+				"mount": "Top",
+				"conceal": "-1",
+				"rating": "2",
+				"weight": ".25",
+				"avail": "3/36 hrs",
+				"cost": "800¥",
+				"st_index": ".9",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".magnification_3",
+				"name": "Imaging Scope: Magnification 3",
+				"mount": "Top",
+				"conceal": "-1",
+				"rating": "3",
+				"weight": ".25",
+				"avail": "3/36 hrs",
+				"cost": "1,200¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".thermographic",
+				"name": "Imaging Scope: Thermographic",
+				"mount": "Top",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": ".25",
+				"avail": "3/36 hrs",
+				"cost": "1,500¥",
+				"st_index": ".8",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  }
+					]},
+			  {
+				"key": ".laser_sights",
+				"name": "Laser Sights",
+				"mount": "Top/under",
+				"conceal": "-1",
+				"rating": "—",
+				"weight": ".25",
+				"avail": "6/36 hrs",
+				"cost": "500¥",
+				"st_index": ".9",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".ultrasound_sight",
+				"name": "Ultrasound Sight",
+				"mount": "Top/under",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": ".25",
+				"avail": "8/4 days",
+				"cost": "1,300¥",
+				"st_index": ".8",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".ultrasound_goggles",
+				"name": "Ultrasound Goggles",
+				"mount": "—",
+				"conceal": "—",
+				"rating": "—",
+				"weight": "—",
+				"avail": "3/36 hrs",
+				"cost": "1,100¥",
+				"st_index": "1",
+				"legal": "Legal",
+				"source": ["sr3base","p. 282"]
+			  }
+				]},
+				{"key":".smartlink", "name":"SmartLink", "list":[
+			  {
+				"key": ".smart_goggles",
+				"name": "Smart Goggles",
+				"mount": "—",
+				"conceal": "0",
+				"rating": "—",
+				"weight": ".1",
+				"avail": "3/36 hrs",
+				"cost": "3,000¥",
+				"st_index": "1",
+				"legal": "4P-N",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".smartgun_internal",
+				"name": "Smartgun, internal",
+				"mount": "—",
+				"conceal": "—",
+				"rating": "—",
+				"weight": ".5",
+				"avail": "Weapon",
+				"cost": "+100%",
+				"st_index": "Weapon",
+				"legal": "4P-N",
+				"source": ["sr3base","p. 282"]
+			  },
+			  {
+				"key": ".smartgun_external",
+				"name": "Smartgun, external",
+				"mount": "Top/under",
+				"conceal": "-2",
+				"rating": "—",
+				"weight": "1",
+				"avail": "4/48 hrs",
+				"cost": "600¥",
+				"st_index": "1",
+				"legal": "4P-N",
+				"source": ["sr3base","p. 282"]
+			  }
+			]}
+			]}
+		]
+	}
+}

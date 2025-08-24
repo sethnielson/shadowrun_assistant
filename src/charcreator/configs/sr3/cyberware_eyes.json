@@ -1,0 +1,199 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".cyberware", "name":"Cyberware", "list": [
+				{"key": ".headwear", "name":"Headwear", "list": [
+					{"key": ".eyes", "name": "eyes", "list": [
+					  {
+						"key": ".camera",
+						"name": "Camera",
+						"essence": "0.4",
+						"cost": "5,000¥",
+						"avail": "6/24 hrs",
+						"st_index": "2",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".cosmetic_modification",
+						"name": "Cosmetic Modification",
+						"essence": "—",
+						"cost": "1,000¥",
+						"avail": "2/24 hrs",
+						"st_index": ".75",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".cyber_replacement",
+						"name": "Cyber Replacement",
+						"essence": "0.2",
+						"cost": "5,000¥",
+						"avail": "2/24 hrs",
+						"st_index": ".75",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".display_link",
+						"name": "Display Link",
+						"essence": "0.1",
+						"cost": "1,000¥",
+						"avail": "4/36 hrs",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".flare_compensation",
+						"name": "Flare Compensation",
+						"essence": "0.1",
+						"cost": "2,000¥",
+						"avail": "5/48 hrs",
+						"st_index": "1.25",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".image_link",
+						"name": "Image Link",
+						"essence": "0.2",
+						"cost": "1,600¥",
+						"avail": "4/48 hrs",
+						"st_index": "2",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".low_light",
+						"name": "Low-Light",
+						"essence": "0.2",
+						"cost": "3,000¥",
+						"avail": "4/36 hrs",
+						"st_index": "1.25",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".opticam",
+						"name": "Opticam",
+						"essence": "0.5",
+						"cost": "20,000¥",
+						"avail": "5/72 hrs",
+						"st_index": "2",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".protective_covers",
+						"name": "Protective Covers",
+						"essence": "—",
+						"cost": "500¥",
+						"avail": "4/48 hrs",
+						"st_index": "1.5",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".retinal_clock",
+						"name": "Retinal Clock",
+						"essence": "0.1",
+						"cost": "450¥",
+						"avail": "3/24 hrs",
+						"st_index": "1",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".retinal_duplication_illegal",
+						"name": "Retinal Duplication (illegal",
+						"essence": "0.1",
+						"cost": "Rating x 25,000¥",
+						"avail": "8/7 days",
+						"st_index": "2",
+						"legal": "3-Q",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {
+						"key": ".thermographic",
+						"name": "Thermographic",
+						"essence": "0.2",
+						"cost": "3,000¥",
+						"avail": "4/36 hrs",
+						"st_index": "1.25",
+						"legal": "Legal",
+						"source": ["sr3base","p. 300"]
+					  },
+					  {"key": ".vision_magnification", "name": "Vision Magnification", "list": [
+						  {
+							"key": ".optical_1",
+							"name": "Optical 1",
+							"essence": "0.2",
+							"cost": "2,500¥",
+							"avail": "4/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  },
+						  {
+							"key": ".optical_2",
+							"name": "Optical 2",
+							"essence": "0.2",
+							"cost": "4,000¥",
+							"avail": "4/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  },
+						  {
+							"key": ".optical_3",
+							"name": "Optical 3",
+							"essence": "0.2",
+							"cost": "6,000¥",
+							"avail": "5/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  },
+						  {
+							"key": ".electronic_1",
+							"name": "Electronic 1",
+							"essence": "0.1",
+							"cost": "3,500¥",
+							"avail": "5/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  },
+						  {
+							"key": ".electronic_2",
+							"name": "Electronic 2",
+							"essence": "0.1",
+							"cost": "7,500¥",
+							"avail": "5/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  },
+						  {
+							"key": ".electronic_3",
+							"name": "Electronic 3",
+							"essence": "0.1",
+							"cost": "11,000¥",
+							"avail": "8/48 hrs",
+							"st_index": "1",
+							"legal": "Legal",
+							"source": ["sr3base","p. 300"]
+						  }
+					  ]}
+					]}
+				]}
+			]}
+		]
+	}
+}

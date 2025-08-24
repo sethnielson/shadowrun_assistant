@@ -1,0 +1,191 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".explosives", "name":"Explosives","list": [
+				{"key": ".grenades", "name": "Grenades", "list": [
+				  {
+					"key": ".grenade_offensive",
+					"name": "Offensive (HE or AP)",
+					"conceal": "6",
+					"damage": "10S",
+					"blast": "-1/m",
+					"weight": ".25",
+					"avail": "4 days",
+					"cost": "30¥",
+					"st_index": "2",
+					"legal": "3-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_defensive",
+					"name": "Defensive (HE or AP)",
+					"conceal": "6",
+					"damage": "10S",
+					"blast": "-1/5m",
+					"weight": ".25",
+					"avail": "4 days",
+					"cost": "30¥",
+					"st_index": "2",
+					"legal": "3-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_concussion",
+					"name": "Concussion",
+					"conceal": "6",
+					"damage": "12M (Stun)",
+					"blast": "-1/m",
+					"weight": ".25",
+					"avail": "5/4 days",
+					"cost": "30¥",
+					"st_index": "2",
+					"legal": "3-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_gas_neurostun_vii",
+					"name": "Gas (Neuro-Stun VII)",
+					"conceal": "5",
+					"damage": "Special",
+					"blast": "—",
+					"weight": ".25",
+					"avail": "8/4 days",
+					"cost": "60¥",
+					"st_index": "2",
+					"legal": "3-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_smoke",
+					"name": "Smoke",
+					"conceal": "6",
+					"damage": "—",
+					"blast": "—",
+					"weight": ".25",
+					"avail": "3/24 hrs",
+					"cost": "30¥",
+					"st_index": "2",
+					"legal": "5-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_smoke_ir",
+					"name": "Smoke (IR)",
+					"conceal": "6",
+					"damage": "—",
+					"blast": "—",
+					"weight": ".25",
+					"avail": "4/48 hrs",
+					"cost": "40¥",
+					"st_index": "2",
+					"legal": "5-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_flash_pak",
+					"name": "Flash-Pak",
+					"conceal": "12",
+					"damage": "Special",
+					"blast": "—",
+					"weight": "—",
+					"avail": "3/36 hrs",
+					"cost": "250¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".grenade_mini",
+					"name": "Mini-grenade",
+					"conceal": "8",
+					"damage": "by grenade",
+					"blast": "by grenade",
+					"weight": ".1",
+					"avail": "+2/by grenade",
+					"cost": "x2",
+					"st_index": "+1",
+					"legal": "by grenade",
+					"source": ["sr3base","p. 283"]
+				  }
+				]},
+				{"key":"commercial_explosives_per_kilo", "name":"Commercial Explosives Per Kilo", "list":[
+
+				  {
+					"key": ".explosive_commercial_per_kg",
+					"name": "Commercial (per kilo)",
+					"conceal": "6",
+					"rating": "3",
+					"blast": "-3/m",
+					"weight": "1",
+					"avail": "6/48 hrs",
+					"cost": "60¥",
+					"st_index": "1",
+					"legal": "4P-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".explosive_plastic_compound_iv_per_kg",
+					"name": "Plastic, Compound IV (per kilo)",
+					"conceal": "6",
+					"rating": "6",
+					"blast": "-6/m",
+					"weight": "1",
+					"avail": "8/48 hrs",
+					"cost": "80¥",
+					"st_index": "1",
+					"legal": "4-J",
+					"source": ["sr3base","p. 283"]
+				  },
+				  {
+					"key": ".explosive_plastic_compound_xii_per_kg",
+					"name": "Plastic, Compound XII (per kilo)",
+					"conceal": "6",
+					"rating": "12",
+					"blast": "-12/m",
+					"weight": "1",
+					"avail": "10/48 hrs",
+					"cost": "200¥",
+					"st_index": "2",
+					"legal": "3-J",
+					"source": ["sr3base","p. 283"]
+				  }
+				]},
+				{"key": ".accessories", "name":"Accessories", "list": [
+
+					  {
+						"key": ".explosive_accessory_radio_detonator",
+						"name": "Radio Detonator",
+						"conceal": "8",
+						"rating": "—",
+						"blast": "—",
+						"weight": ".25",
+						"avail": "4/48 hrs",
+						"cost": "250¥",
+						"st_index": "2",
+						"legal": "6-J",
+						"source": ["sr3base","p. 283"]
+					  },
+					  {
+						"key": ".explosive_accessory_timer",
+						"name": "Timer",
+						"conceal": "6",
+						"rating": "—",
+						"blast": "—",
+						"weight": ".5",
+						"avail": "4/48 hrs",
+						"cost": "100¥",
+						"st_index": "2",
+						"legal": "6-J",
+						"source": ["sr3base","p. 283"]
+					  }
+				]}
+			]}
+		]
+	}
+
+}

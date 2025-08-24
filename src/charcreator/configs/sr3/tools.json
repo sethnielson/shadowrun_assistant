@@ -1,0 +1,46 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".tools", "name":"Tools","list": [
+			  {
+				"key": ".kit",
+				"name": "Kit",
+				"conceal": "3",
+				"weight": "5",
+				"avail": "5/48 hrs",
+				"cost": "500¥",
+				"st_index": "2",
+				"notes": "General Work (Base Cost). Vehicle Work (2 x Cost). Electronic/Computer/Cyberware Work (3 x Cost).",
+				"source": ["sr3base","p. 288"]
+			  },
+			  {
+				"key": ".shop",
+				"name": "Shop",
+				"conceal": "—",
+				"weight": "—",
+				"avail": "8/72 hrs",
+				"cost": "5,000¥",
+				"st_index": "3",
+				"notes": "General Work (Base Cost). Vehicle Work (2 x Cost). Electronic/Computer/Cyberware Work (3 x Cost).",
+				"source": ["sr3base","p. 288"]
+			  },
+			  {
+				"key": ".facility",
+				"name": "Facility",
+				"conceal": "—",
+				"weight": "—",
+				"avail": "14/7 days",
+				"cost": "100,000¥",
+				"st_index": "4",
+				"notes": "General Work (Base Cost). Vehicle Work (2 x Cost). Electronic/Computer/Cyberware Work (3 x Cost).",
+				"source": ["sr3base","p. 288"]
+			  }
+			]}
+		]
+	}
+}

@@ -1,0 +1,133 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".entertainment", "name":"Entertainment","list": [
+				{"key": ".music", "name": "Music", "list": [
+				  {
+					"key": ".music_disk_chip",
+					"name": "Disk/Chip (Music)",
+					"conceal": "12",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "20¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".music_playback_unit",
+					"name": "Playback Unit (Music)",
+					"conceal": "3",
+					"weight": "2",
+					"avail": "Always",
+					"cost": "200¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".music_quad_speakers",
+					"name": "Quad Speakers",
+					"conceal": "—",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "100¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  }
+				]},
+				{"key": ".video", "name": "Video", "list": [
+				  {
+					"key": ".disk_chip",
+					"name": "Disk/Chip (Video)",
+					"conceal": "12",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "20¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".playback_unit",
+					"name": "Playback Unit (Video)",
+					"conceal": "2",
+					"weight": "2",
+					"avail": "Always",
+					"cost": "400¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".screen",
+					"name": "Screen",
+					"conceal": "—",
+					"weight": "3",
+					"avail": "Always",
+					"cost": "150¥",
+					"st_index": ".75",
+					"source": ["sr3base"]
+				  }
+				]},
+				{"key": ".simsense_decks", "name":"Simsense Decks", "list": [
+				  {
+					"key": ".sony_beautiful_dreamer_monopov_act",
+					"name": "Sony Beautiful Dreamer (monoPOV ACT)",
+					"conceal": "3",
+					"weight": "3",
+					"avail": "Always",
+					"cost": "200¥",
+					"st_index": "1",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".novatech_sandman_polypov_act",
+					"name": "Novatech Sandman (polyPOV ACT)",
+					"conceal": "2",
+					"weight": "5.5",
+					"avail": "Always",
+					"cost": "2,500¥",
+					"st_index": "1",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".truman_paradiso_polypov_act_or_dir_x",
+					"name": "Truman Paradiso (polyPOV ACT or DIR-X)",
+					"conceal": "—",
+					"weight": "6",
+					"avail": "4/36 hrs",
+					"cost": "75,000¥",
+					"st_index": "1",
+					"source": ["sr3base"]
+				  }
+				]},
+				{"key": ".simesnse_recordings", "name":"Simsense Recordings", "list": [
+				  {
+					"key": ".recording_act",
+					"name": "ACT Recordings",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "2¥/minute",
+					"st_index": ".75",
+					"notes": "Costs shown are for monoPOV baseline; triple cost for Full-X. For poly-POV, multiply by number of POVs.",
+					"source": ["sr3base"]
+				  },
+				  {
+					"key": ".recording_dir_x",
+					"name": "Dir-X Recordings",
+					"conceal": "10",
+					"weight": "—",
+					"avail": "Always",
+					"cost": "90¥/minute",
+					"st_index": ".75",
+					"notes": "Costs shown are for monoPOV baseline; triple cost for Full-X. For poly-POV, multiply by number of POVs.",
+					"source": ["sr3base"]
+				  }
+				]}
+			]}
+		]
+	}
+}

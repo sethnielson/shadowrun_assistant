@@ -1,0 +1,213 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+	
+	"data": {
+		"static": [
+			{ "key": ".edged_weapons", "name":"Edged Weapons","list": [
+  {
+    "key": ".thrusting_point",
+    "name": "Thrusting Point",
+    "conceal": "12",
+    "reach": "0",
+    "damage": "(STR+2)L",
+    "weight": "NA",
+    "avail": "NA",
+    "cost": "NA",
+    "st_index": "NA",
+    "legal": "NA",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".forearm_snap_blades",
+    "name": "Forearm Snap Blades",
+    "conceal": "7",
+    "reach": "0",
+    "damage": "(STR)M",
+    "weight": "1.5",
+    "avail": "4/48 hrs",
+    "cost": "850¥",
+    "st_index": "2",
+    "legal": "4-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".katana",
+    "name": "Katana",
+    "conceal": "3",
+    "reach": "1",
+    "damage": "(STR+3)M",
+    "weight": "1",
+    "avail": "4/48 hrs",
+    "cost": "1000¥",
+    "st_index": "2",
+    "legal": "5-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".knife",
+    "name": "Knife",
+    "conceal": "8",
+    "reach": "—",
+    "damage": "(STR)L",
+    "weight": "0.5",
+    "avail": "2/4 hrs",
+    "cost": "30¥",
+    "st_index": "0.75",
+    "legal": "8-A",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".sword",
+    "name": "Sword",
+    "conceal": "4",
+    "reach": "1",
+    "damage": "(STR+2)M",
+    "weight": "1",
+    "avail": "3/24 hrs",
+    "cost": "500¥",
+    "st_index": "1",
+    "legal": "4-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".survival_knife",
+    "name": "Survival Knife",
+    "conceal": "6",
+    "reach": "0",
+    "damage": "(STR+2)L",
+    "weight": "0.75",
+    "avail": "3/6 hrs",
+    "cost": "450¥",
+    "st_index": "1",
+    "legal": "6-A",
+    "source": ["sr3base","p. 275"]
+  }
+			]},
+			{ "key": ".clubs", "name":"Clubs","list": [
+  {
+    "key": ".club",
+    "name": "Club",
+    "conceal": "5",
+    "reach": "1",
+    "damage": "(STR+1)M Stun",
+    "weight": "1",
+    "avail": "2/6 hrs",
+    "cost": "10¥",
+    "st_index": "1",
+    "legal": "6-C",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".sap",
+    "name": "Sap",
+    "conceal": "8",
+    "reach": "—",
+    "damage": "(STR+2)M Stun",
+    "weight": "—",
+    "avail": "2/6 hrs",
+    "cost": "10¥",
+    "st_index": "1",
+    "legal": "5-C",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".stun_baton",
+    "name": "Stun Baton",
+    "conceal": "4",
+    "reach": "1",
+    "damage": "6S Stun",
+    "weight": "1",
+    "avail": "3/36 hrs",
+    "cost": "750¥",
+    "st_index": "1",
+    "legal": "5-C",
+    "source": ["sr3base","p. 275"]
+  }
+			]},
+			{ "key": ".pole_arms_staffs", "name":"Pole Arms/Staffs","list": [
+  {
+    "key": ".combat_axe",
+    "name": "Combat Axe",
+    "conceal": "2",
+    "reach": "2",
+    "damage": "(STR)S",
+    "weight": "2",
+    "avail": "3/24 hrs",
+    "cost": "750¥",
+    "st_index": "2",
+    "legal": "3-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".pole_arm",
+    "name": "Pole Arm",
+    "conceal": "2",
+    "reach": "2",
+    "damage": "(STR+3)S",
+    "weight": "4",
+    "avail": "4/48 hrs",
+    "cost": "500¥",
+    "st_index": "2",
+    "legal": "3-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".staff",
+    "name": "Staff",
+    "conceal": "2",
+    "reach": "2",
+    "damage": "(STR+2)M Stun",
+    "weight": "2",
+    "avail": "3/24 hrs",
+    "cost": "50¥",
+    "st_index": "1",
+    "legal": "8-C",
+    "source": ["sr3base","p. 275"]
+  }
+			]},
+			{ "key": ".other", "name":"Other","list": [
+  {
+    "key": ".monofilament_whip",
+    "name": "Monofilament Whip",
+    "conceal": "10",
+    "reach": "2",
+    "damage": "10S",
+    "weight": "—",
+    "avail": "24/14 days",
+    "cost": "3000¥",
+    "st_index": "3",
+    "legal": "1-K",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".shock_glove",
+    "name": "Shock Glove",
+    "conceal": "9",
+    "reach": "0",
+    "damage": "7S Stun",
+    "weight": "1.5",
+    "avail": "5/48 hrs",
+    "cost": "950¥",
+    "st_index": "2",
+    "legal": "5-B",
+    "source": ["sr3base","p. 275"]
+  },
+  {
+    "key": ".whip",
+    "name": "Whip",
+    "conceal": "5",
+    "reach": "2",
+    "damage": "(STR)L",
+    "weight": "—",
+    "avail": "4/48 hrs",
+    "cost": "300¥",
+    "st_index": "2",
+    "legal": "10-C",
+    "source": ["sr3base","p. 275"]
+  }
+			]}
+	]}
+}

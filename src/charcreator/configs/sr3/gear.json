@@ -1,0 +1,12 @@
+{
+	
+	"schema_version": "0.1",
+
+	"namespace": {
+		"defines": "sr3.gear"
+	},
+
+	"group": "Gear",
+	"data": {
+	}
+}

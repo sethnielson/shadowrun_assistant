@@ -1,0 +1,259 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+		{"key": ".rockets", "name":"Rockets", "list":[
+
+		  {
+			"key": ".rocket_anti_personnel",
+			"name": "Rocket, Anti-Personnel",
+			"intelligence": "NA",
+			"damage": "16D",
+			"blast": "-1/5m",
+			"weight": "2",
+			"avail": "8/14 days",
+			"cost": "1000¥",
+			"st_index": "2",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".rocket_anti_vehicle",
+			"name": "Rocket, Anti-Vehicle",
+			"intelligence": "NA",
+			"damage": "16D",
+			"blast": "-8/m",
+			"weight": "3",
+			"avail": "8/14 days",
+			"cost": "2000¥",
+			"st_index": "2",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".rocket_high_explosive",
+			"name": "Rocket, High-Explosive",
+			"intelligence": "NA",
+			"damage": "16D",
+			"blast": "-1/m",
+			"weight": "2",
+			"avail": "8/14 days",
+			"cost": "1500¥",
+			"st_index": "2",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  }
+		]},
+		{"key": ".missiles", "name":"Missiles", "list":[
+		  {
+			"key": ".missile_anti_personnel",
+			"name": "Missile, Anti-Personnel",
+			"intelligence": "3",
+			"damage": "16D",
+			"blast": "-1/5m",
+			"weight": "2.25",
+			"avail": "12/14 days",
+			"cost": "2500¥",
+			"st_index": "3",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".missile_anti_vehicle",
+			"name": "Missile, Anti-Vehicle",
+			"intelligence": "4",
+			"damage": "16D",
+			"blast": "-8/m",
+			"weight": "3.25",
+			"avail": "12/14 days",
+			"cost": "5000¥",
+			"st_index": "3",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".missile_high_explosive",
+			"name": "Missile, High-Explosive",
+			"intelligence": "3",
+			"damage": "16D",
+			"blast": "-1/m",
+			"weight": "2.25",
+			"avail": "12/14 days",
+			"cost": "3750¥",
+			"st_index": "3",
+			"legal": "1-K",
+			"notes": "",
+			"source": ["sr3base","p. 281"]
+		  }
+		]},
+		{"key":".ammunition", "name":"Ammunition", "list": [
+		  {
+			"key": ".apds",
+			"name": "APDS (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.25",
+			"avail": "14/14 days",
+			"cost": "70¥",
+			"st_index": "4",
+			"legal": "3-M",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".assault_cannon",
+			"name": "Assault Cannon (per 10 shots)",
+			"conceal": "3",
+			"damage": "As weapon",
+			"weight": "1.25",
+			"avail": "5/3 days",
+			"cost": "450¥",
+			"st_index": "2",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".assault_cannon_belt_100",
+			"name": "Assault Cannon (per Belt 100)",
+			"conceal": "-",
+			"damage": "As Weapon",
+			"weight": "12.5",
+			"avail": "6/3 days",
+			"cost": "4250¥",
+			"st_index": "2",
+			"legal": "As Weapon",
+			"notes": "add rounds/100 to Availability",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".explosive",
+			"name": "Explosive Rounds (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.75",
+			"avail": "3/36 hrs",
+			"cost": "50¥",
+			"st_index": "0.8",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".ex_explosive",
+			"name": "EX Explosive Rounds (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.75",
+			"avail": "6/72 hrs",
+			"cost": "100¥",
+			"st_index": "1.5",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".flechette",
+			"name": "Flechette Rounds (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.25",
+			"avail": "3/36 hrs",
+			"cost": "100¥",
+			"st_index": "0.8",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".gel",
+			"name": "Gel Rounds (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.25",
+			"avail": "4/48 hrs",
+			"cost": "30¥",
+			"st_index": "1",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".regular",
+			"name": "Regular Ammo (per 10 shots)",
+			"conceal": "8",
+			"damage": "As weapon",
+			"weight": "0.25",
+			"avail": "2/24 hrs",
+			"cost": "20¥",
+			"st_index": "0.75",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".tracer",
+			"name": "Tracer (per 10 shots)",
+			"conceal": "8",
+			"damage": "See rules",
+			"weight": "0.5",
+			"avail": "3/24 hrs",
+			"cost": "75¥",
+			"st_index": "1",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  },
+		  {
+			"key": ".taser_dart",
+			"name": "Taser Dart (per 10 shots)",
+			"conceal": "3",
+			"damage": "Special",
+			"weight": "0.5",
+			"avail": "6/36 hrs",
+			"cost": "50¥",
+			"st_index": "1.5",
+			"legal": "As Weapon",
+			"notes": "-1 Concealability per extra 10 rounds of ammo",
+			"source": ["sr3base","p. 281"]
+		  }
+			]},
+			{"key": ".arrows_and_bolts", "name":"Arrows/Bolts", "list":[
+				{
+					"key": ".arrows",
+					"name": "Arrows",
+					"conceal": "3",
+					"str_min": "NA",
+					"damage": "As bow",
+					"weight": "0.1",
+					"avail": "3/36 hrs",
+					"cost": "10¥",
+					"st_index": "1",
+					"legal": "10-D",
+					"source": ["sr3base","p. 276"]
+				  },
+				{
+				"key": ".crossbow_bolts",
+				"name": "Bolts (Crossbow)",
+				"conceal": "4",
+				"str_min": "—",
+				"damage": "As crossbow",
+				"weight": "0.05",
+				"avail": "5/36 hrs",
+				"cost": "5¥",
+				"st_index": "1",
+				"legal": "10-D",
+				"source": ["sr3base","p. 276"]
+			  }
+			]}
+	]}	
+}

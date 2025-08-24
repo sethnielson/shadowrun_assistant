@@ -1,0 +1,336 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".clothing_armor", "name":"Clothing and Armor","list": [
+				{"key": ".general", "name": "General", "list": [
+					{
+					"key": ".fine_clothing",
+					"name": "Fine Clothing",
+					"conceal": "—",
+					"ballistic": "0",
+					"impact": "0",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "500¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".ordinary_clothing",
+					"name": "Ordinary Clothing",
+					"conceal": "—",
+					"ballistic": "0",
+					"impact": "0",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "50¥",
+					"st_index": ".8",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".riot_shield_small",
+					"name": "Riot Shield, Small",
+					"conceal": "—",
+					"ballistic": "1",
+					"impact": "2",
+					"weight": "1",
+					"avail": "8/14 days",
+					"cost": "1,500¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".riot_shield_large",
+					"name": "Riot Shield, Large",
+					"conceal": "—",
+					"ballistic": "2",
+					"impact": "3",
+					"weight": "2",
+					"avail": "8/14 days",
+					"cost": "1,500¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".riot_shield_ballistic",
+					"name": "Riot Shield, Ballistic",
+					"conceal": "—",
+					"ballistic": "3",
+					"impact": "1",
+					"weight": "2",
+					"avail": "8/14 days",
+					"cost": "1,500¥",
+					"st_index": "2",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".tres_chic",
+					"name": "Tres Chic",
+					"conceal": "—",
+					"ballistic": "0",
+					"impact": "0",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "1,000¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  }
+				]},
+				{"key": ".armor_clothing", "name": "Armor Clothing", "list":[
+				  {
+					"key": ".std_armor_clothing",
+					"name": "Standard Armor Clothing",
+					"conceal": "10",
+					"ballistic": "3",
+					"impact": "0",
+					"weight": "2",
+					"avail": "2/36 hrs",
+					"cost": "500¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"],
+					"notes": "The rulebook refers to this as just 'armor clothing'. Changed to differentiate the category"
+				  },
+				  {
+					"key": ".armor_jacket",
+					"name": "Armor Jacket",
+					"conceal": "6",
+					"ballistic": "5",
+					"impact": "3",
+					"weight": "2",
+					"avail": "3/36 hrs",
+					"cost": "900¥",
+					"st_index": ".75",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".armor_vest",
+					"name": "Armor Vest",
+					"conceal": "12",
+					"ballistic": "2",
+					"impact": "1",
+					"weight": "1",
+					"avail": "3/36 hrs",
+					"cost": "200¥",
+					"st_index": ".8",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".armor_vest_with_plates",
+					"name": "Armor Vest with Plates",
+					"conceal": "10",
+					"ballistic": "4",
+					"impact": "3",
+					"weight": "2",
+					"avail": "3/36 hrs",
+					"cost": "600¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".lined_coat",
+					"name": "Lined Coat",
+					"conceal": "8",
+					"ballistic": "4",
+					"impact": "2",
+					"weight": "2",
+					"avail": "2/24 hrs",
+					"cost": "700¥",
+					"st_index": ".75",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".secure_clothing",
+					"name": "Secure Clothing",
+					"conceal": "12",
+					"ballistic": "3",
+					"impact": "0",
+					"weight": "1.5",
+					"avail": "3/36 hrs",
+					"cost": "450¥",
+					"st_index": ".9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".secure_jacket",
+					"name": "Secure Jacket",
+					"conceal": "9",
+					"ballistic": "5",
+					"impact": "3",
+					"weight": "3",
+					"avail": "4/36 hrs",
+					"cost": "850¥",
+					"st_index": ".8",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".secure_vest",
+					"name": "Secure Vest",
+					"conceal": "15",
+					"ballistic": "2",
+					"impact": "1",
+					"weight": ".75",
+					"avail": "3/36 hrs",
+					"cost": "175¥",
+					"st_index": ".9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".secure_ultra_vest",
+					"name": "Secure Ultra-Vest",
+					"conceal": "14",
+					"ballistic": "3",
+					"impact": "2",
+					"weight": "2.5",
+					"avail": "3/36 hrs",
+					"cost": "350¥",
+					"st_index": ".9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".secure_long_coat",
+					"name": "Secure Long Coat",
+					"conceal": "10",
+					"ballistic": "4",
+					"impact": "2",
+					"weight": "3",
+					"avail": "3/24 hrs",
+					"cost": "650¥",
+					"st_index": ".9",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  }
+				]},
+				{"key": ".camouflage", "name": "Camouflage", "list": [
+				  {
+					"key": ".camo_full_suit",
+					"name": "Camo Full Suit",
+					"conceal": "—",
+					"ballistic": "5",
+					"impact": "3",
+					"weight": "2",
+					"avail": "5/36 hrs",
+					"cost": "1,200¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".camo_jacket",
+					"name": "Camo Jacket",
+					"conceal": "—",
+					"ballistic": "3",
+					"impact": "1",
+					"weight": "1.5",
+					"avail": "4/36 hrs",
+					"cost": "800¥",
+					"st_index": "1",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  }
+				]},
+				{"key": ".leather", "name": "Leather", "list": [
+				{
+					"key": ".leather_real",
+					"name": "Leather (Real)",
+					"conceal": "—",
+					"ballistic": "0",
+					"impact": "2",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "750¥",
+					"st_index": ".75",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".leather_synthetic",
+					"name": "Leather (Synthetic)",
+					"conceal": "—",
+					"ballistic": "0",
+					"impact": "1",
+					"weight": "1",
+					"avail": "Always",
+					"cost": "250¥",
+					"st_index": ".6",
+					"legal": "Legal",
+					"source": ["sr3base","p. 284"]
+				  }
+				]},
+				{"key": ".security_armor", "name": "Security Armor", "list": [
+				{
+					"key": ".security_light",
+					"name": "Light Security",
+					"conceal": "—",
+					"ballistic": "6",
+					"impact": "4",
+					"weight": "9 + Body",
+					"avail": "12/10 days",
+					"cost": "7,500¥",
+					"st_index": "2",
+					"legal": "4P-L",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".security_medium",
+					"name": "Medium Security",
+					"conceal": "—",
+					"ballistic": "7",
+					"impact": "5",
+					"weight": "11 + Body",
+					"avail": "14/10 days",
+					"cost": "9,000¥",
+					"st_index": "2.5",
+					"legal": "3P-L",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".security_heavy",
+					"name": "Heavy Security",
+					"conceal": "—",
+					"ballistic": "7",
+					"impact": "5",
+					"weight": "13 + Body",
+					"avail": "16/14 days",
+					"cost": "12,000¥",
+					"st_index": "3",
+					"legal": "2P-L",
+					"source": ["sr3base","p. 284"]
+				  },
+				  {
+					"key": ".security_helmet",
+					"name": "Security Helmet",
+					"conceal": "—",
+					"ballistic": "+1",
+					"impact": "+2",
+					"weight": "—",
+					"avail": "12/14 days",
+					"cost": "250¥",
+					"st_index": "2",
+					"legal": "P-L",
+					"source": ["sr3base","p. 284"]
+				  }
+				]}
+			]}
+		]
+	}
+}

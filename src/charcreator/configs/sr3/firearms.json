@@ -1,0 +1,425 @@
+{
+	"schema_version": "0.1",
+	"namespace":{
+			"extends":"sr3.gear"
+	},
+
+	"data": {
+		"static": [
+			{ "key": ".pistols", "name":"Pistols","list": [
+				{"key": ".hold-out", "name": "Hold Out", "list": [
+  {
+    "key": ".streetline_special",
+    "name": "Streetline Special",
+    "conceal": "8",
+    "ammo": "6(c)",
+    "mode": "SS",
+    "damage": "4L",
+    "weight": "0.5",
+    "avail": "2/12 hrs",
+    "cost": "100¥",
+    "st_index": "0.75",
+    "legal": "10P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".walther_palm_pistol",
+    "name": "Walther Palm Pistol",
+    "conceal": "9",
+    "ammo": "2(b)",
+    "mode": "SS",
+    "damage": "4L",
+    "weight": "0.25",
+    "avail": "3/12 hrs",
+    "cost": "200¥",
+    "st_index": "0.75",
+    "legal": "10P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }
+				]},
+			{"key": ".light", "name": "Light", "list": [
+  {
+    "key": ".beretta_model_101t",
+    "name": "Beretta Model 101T",
+    "conceal": "5",
+    "ammo": "12(c)",
+    "mode": "SA",
+    "damage": "6L",
+    "weight": "1",
+    "avail": "3/12 hrs",
+    "cost": "350¥",
+    "st_index": "0.8",
+    "legal": "8P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".colt_american_l36",
+    "name": "Colt American L36",
+    "conceal": "6",
+    "ammo": "11(c)",
+    "mode": "SA",
+    "damage": "6L",
+    "weight": "1",
+    "avail": "3/12 hrs",
+    "cost": "350¥",
+    "st_index": "0.8",
+    "legal": "8P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".fichetti_security_500",
+    "name": "Fichetti Security 500",
+    "conceal": "4",
+    "ammo": "10(c)",
+    "mode": "SA",
+    "damage": "6L",
+    "weight": "1",
+    "avail": "3/12 hrs",
+    "cost": "450¥",
+    "st_index": "0.8",
+    "legal": "8P-E",
+    "rc": "(1)",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".fichetti_security_500a",
+    "name": "Fichetti Security 500a",
+    "conceal": "4",
+    "ammo": "25(c)",
+    "mode": "SA",
+    "damage": "6L",
+    "weight": "1.25",
+    "avail": "3/12 hrs",
+    "cost": "550¥",
+    "st_index": "0.8",
+    "legal": "8P-E",
+    "rc": "(1)",
+	"source": ["sr3base","p. 278"]
+  }
+			]},
+		{"key": ".machine_pistols", "name": "Machine Pistols", "list": [
+  {
+    "key": ".ceska_black_scorpion",
+    "name": "Ceska Black Scorpion",
+    "conceal": "5",
+    "ammo": "35(c)",
+    "mode": "SA/BF",
+    "damage": "6L",
+    "weight": "3",
+    "avail": "5/36 hrs",
+    "cost": "850¥",
+    "st_index": "2",
+    "legal": "5-G",
+    "rc": "(1)",
+	"source": ["sr3base","p. 278"]
+  }
+		]},
+		{"key": ".heavy_pistols", "name": "Heavy Pistols", "list": [
+  {
+    "key": ".ares_predator",
+    "name": "Ares Predator",
+    "conceal": "5",
+    "ammo": "15(c)",
+    "mode": "SA",
+    "damage": "9M",
+    "weight": "2.25",
+    "avail": "3/24 hrs",
+    "cost": "450¥",
+    "st_index": "0.5",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".ares_viper_slivergun",
+    "name": "Ares Viper Slivergun",
+    "conceal": "6",
+    "ammo": "30(c)",
+    "mode": "SA/BF",
+    "damage": "9S(f)",
+    "weight": "2",
+    "avail": "3/48 hrs",
+    "cost": "600¥",
+    "st_index": "1",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".browning_max_power",
+    "name": "Browning Max-Power",
+    "conceal": "4",
+    "ammo": "10(c)",
+    "mode": "SA",
+    "damage": "9M",
+    "weight": "2",
+    "avail": "3/24 hrs",
+    "cost": "450¥",
+    "st_index": "1",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".remington_roomsweeper",
+    "name": "Remington Roomsweeper",
+    "conceal": "4",
+    "ammo": "8(m)",
+    "mode": "SA",
+    "damage": "9S(f)",
+    "weight": "1",
+    "avail": "3/24 hrs",
+    "cost": "300¥",
+    "st_index": "1",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".ruger_super_warhawk",
+    "name": "Ruger Super Warhawk",
+    "conceal": "4",
+    "ammo": "6(cy)",
+    "mode": "SS",
+    "damage": "10M",
+    "weight": "2.5",
+    "avail": "3/24 hrs",
+    "cost": "300¥",
+    "st_index": "1",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }
+		]},
+		{"key": ".special", "name": "Special Weapons", "list": [
+  {
+    "key": ".defiance_super_shock",
+    "name": "Defiance Super Shock",
+    "conceal": "4",
+    "ammo": "4(m)",
+    "mode": "SA",
+    "damage": "10S Stun",
+    "weight": "2",
+    "avail": "5/24 hrs",
+    "cost": "1000¥",
+    "st_index": "1",
+    "legal": "6P-E",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }
+			]},
+  
+		{ "key": ".submachine_guns", "name":"Submachine Guns","list": [
+  {
+    "key": ".ak97_smg",
+    "name": "AK-97 SMG/Carbine",
+    "conceal": "4",
+    "ammo": "30(c)",
+    "mode": "SA/BF/FA",
+    "damage": "6M",
+    "weight": "4",
+    "avail": "5/3 days",
+    "cost": "800¥",
+    "st_index": "1",
+    "legal": "4-G",
+    "rc": "(1)",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".heckler_koch_hk227",
+    "name": "Heckler & Koch HK227",
+    "conceal": "4",
+    "ammo": "28(c)",
+    "mode": "SA/BF/FA",
+    "damage": "7M",
+    "weight": "4",
+    "avail": "4/24 hrs",
+    "cost": "1500¥",
+    "st_index": "0.75",
+    "legal": "4-G",
+    "rc": "2(3)",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".hk227_s",
+    "name": "HK227-S",
+    "conceal": "5",
+    "ammo": "28(c)",
+    "mode": "SA/BF",
+    "damage": "7M",
+    "weight": "4",
+    "avail": "10/7 days",
+    "cost": "2000¥",
+    "st_index": "3",
+    "legal": "3-G",
+    "rc": "(2)",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".ingram_smartgun",
+    "name": "Ingram Smartgun",
+    "conceal": "5",
+    "ammo": "32(c)",
+    "mode": "BF/FA",
+    "damage": "7M",
+    "weight": "3",
+    "avail": "4/24 hrs",
+    "cost": "950¥",
+    "st_index": "1",
+    "legal": "4-G",
+    "rc": "2(3)",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".uzi_iii",
+    "name": "Uzi III",
+    "conceal": "5",
+    "ammo": "24(c)",
+    "mode": "BF",
+    "damage": "6M",
+    "weight": "2",
+    "avail": "4/24 hrs",
+    "cost": "600¥",
+    "st_index": "0.75",
+    "legal": "4-G",
+    "rc": "(1)",
+	"source": ["sr3base","p. 278"]
+  }
+		]},
+		{ "key": ".rifles", "name":"Rifles","list": [
+			{ "key": ".sport_rifles", "name":"Sport Rifles","list": [
+  {
+    "key": ".remington_750",
+    "name": "Remington 750",
+    "conceal": "3",
+    "ammo": "5(m)",
+    "mode": "SA",
+    "damage": "7S",
+    "weight": "3",
+    "avail": "3/24 hrs",
+    "cost": "600¥",
+    "st_index": "1",
+    "legal": "5P-F",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".remington_950",
+    "name": "Remington 950",
+    "conceal": "2",
+    "ammo": "5(m)",
+    "mode": "SA",
+    "damage": "9S",
+    "weight": "4",
+    "avail": "3/24 hrs",
+    "cost": "2500¥",
+    "st_index": "1",
+    "legal": "5P-F",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }
+			]},
+			{"key": ".sniper_rifles", "name":"Sniper Rifles", "list": [
+  {
+    "key": ".ranger_arms_sm3",
+    "name": "Ranger Arms SM-3",
+    "conceal": "",
+    "ammo": "6(m)",
+    "mode": "SA",
+    "damage": "14S",
+    "weight": "5",
+    "avail": "12/7 days",
+    "cost": "4000¥",
+    "st_index": "4",
+    "legal": "2-K",
+    "rc": "2",
+	"source": ["sr3base","p. 278"]
+  }
+			]}
+		]},
+		{ "key": ".shotguns", "name":"Shotguns","list": [
+  {
+    "key": ".defiance_t250",
+    "name": "Defiance T-250",
+    "conceal": "4",
+    "ammo": "5(m)",
+    "mode": "SA",
+    "damage": "10S",
+    "weight": "3",
+    "avail": "3/24 hrs",
+    "cost": "500¥",
+    "st_index": "1",
+    "legal": "5P-F",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".enfield_as7",
+    "name": "Enfield AS-7",
+    "conceal": "3",
+    "ammo": "10(c)",
+    "mode": "SA/BF",
+    "damage": "8S",
+    "weight": "8",
+    "avail": "8/8 days",
+    "cost": "2500¥",
+    "st_index": "1",
+    "legal": "5P-F",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }]
+		},
+		{ "key": ".assault_rifles", "name":"Assault Rifles","list": [
+  {
+    "key": ".ak97",
+    "name": "AK-97",
+    "conceal": "3",
+    "ammo": "38(c)",
+    "mode": "SA/BF/FA",
+    "damage": "8M",
+    "weight": "4.5",
+    "avail": "3/36 hrs",
+    "cost": "700¥",
+    "st_index": "2",
+    "legal": "2-G",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".ak98",
+    "name": "AK-98",
+    "conceal": "2",
+    "ammo": "42(c)",
+    "mode": "SA/BF/FA",
+    "damage": "8M",
+    "weight": "4.5",
+    "avail": "8/4 days",
+    "cost": "1200¥",
+    "st_index": "2",
+    "legal": "2-G",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  },
+  {
+    "key": ".fn_har",
+    "name": "FN HAR",
+    "conceal": "2",
+    "ammo": "35(c)",
+    "mode": "SA/BF/FA",
+    "damage": "8M",
+    "weight": "4.5",
+    "avail": "4/48 hrs",
+    "cost": "1200¥",
+    "st_index": "2",
+    "legal": "2-G",
+    "rc": "",
+	"source": ["sr3base","p. 278"]
+  }
+		]}
+	]}
+	]}
+}
