@@ -8,7 +8,7 @@
 		"static": [
 			{ "key": ".cyberware", "name":"Cyberware", "list": [
 				{"key": ".bodywear", "name":"Bodywear", "list": [
-					{"keY": ".limbs", "name": "Limbs", "list": [
+					{"key": ".limbs", "name": "Limbs", "list": [
 						  {
 							"key": ".obvious_cyberarm_leg",
 							"name": "Obvious Cyberarm/Leg",

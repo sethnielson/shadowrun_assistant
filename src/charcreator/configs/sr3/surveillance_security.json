@@ -252,7 +252,7 @@
 						"source": ["sr3base","p. 290"]
 					  }
 					]},
-					{"key": "decryption", "name": "Decryption", "list": [
+					{"key": ".decryption", "name": "Decryption", "list": [
 					  {
 						"key": ".rating_1_4",
 						"name": "Rating 1–4",

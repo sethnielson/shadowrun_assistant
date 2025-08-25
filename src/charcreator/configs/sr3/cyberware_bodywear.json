@@ -8,7 +8,7 @@
 		"static": [
 			{ "key": ".cyberware", "name":"Cyberware", "list": [
 				{"key": ".bodywear", "name":"Bodywear", "list": [
-					{"keY": ".bone_lacing", "name": "Bone Lacing", "list": [
+					{"key": ".bone_lacing", "name": "Bone Lacing", "list": [
 					  {
 						"key": ".plastic",
 						"name": "Plastic",

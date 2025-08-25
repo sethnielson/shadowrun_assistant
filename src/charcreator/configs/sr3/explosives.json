@@ -113,7 +113,7 @@
 					"source": ["sr3base","p. 283"]
 				  }
 				]},
-				{"key":"commercial_explosives_per_kilo", "name":"Commercial Explosives Per Kilo", "list":[
+				{"key":".commercial_explosives_per_kilo", "name":"Commercial Explosives Per Kilo", "list":[
 
 				  {
 					"key": ".explosive_commercial_per_kg",
